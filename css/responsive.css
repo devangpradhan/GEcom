@@ -272,6 +272,11 @@
     top: 90%;
     z-index: 2;
   }
+
+  .trending-product-area{
+    padding-left:40px;
+   }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

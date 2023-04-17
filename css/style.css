@@ -5991,8 +5991,6 @@ header.side-header {
     max-width: 26.8%;
     flex: 0 0 26.8%;
     padding: 5% 1% 5% 1%;
-    /* padding: 5% 15px 5% 15px; */
-
 }
 
 .trending-products-banner > a {
@@ -8245,5 +8243,5 @@ header.side-header {
 }
 
 .trending-product-area {
-    padding: 0 20% 0 20% ;
+    padding: 0 10% 0 10% ;
   }

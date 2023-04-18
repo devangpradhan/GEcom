@@ -4252,7 +4252,7 @@ header.side-header {
 
 .shop-details-content .title {
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   letter-spacing: 2px;
 }
 
@@ -4300,6 +4300,10 @@ header.side-header {
   color: #403a37;
   font-weight: 600;
 }
+
+.product-details-info h4{
+  padding-left:0px !important;
+ }
 
 .perched-info > .btn {
   background: #36363b;

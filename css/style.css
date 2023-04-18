@@ -2063,6 +2063,7 @@ header.side-header {
 
 /* 3. Search modal */
 #search-modal {
+  opacity: 0.55;
   background-color: rgba(23, 26, 33, 0.95);
 }
 
@@ -2090,6 +2091,7 @@ header.side-header {
 }
 
 #search-modal .modal-dialog .modal-content form {
+  
   width: 100%;
   position: relative;
 }
@@ -4661,6 +4663,14 @@ header.side-header {
 
 .cart-total .shop-cart-widget {
   padding: 60px 40px 60px;
+}
+
+.sel-b {
+  border: 1px solid #0c0c0c;
+}
+
+.sel-w {
+  border: 1px solid #f7f7f7;
 }
 
 /* 9. Promo-services */

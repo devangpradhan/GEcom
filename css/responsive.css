@@ -68,7 +68,7 @@
     max-width: 1300px;
   }
   .header-top-wrap {
-    padding: 20px 0px;
+    padding: 5px 0px;
   }
   .slider-bg {
     min-height: auto;
@@ -686,7 +686,7 @@
     max-width: 720px;
   }
   .main-header {
-    padding: 25px 0;
+    padding: 10px 0;
   }
   .menu-nav {
     justify-content: space-between;
@@ -1888,7 +1888,10 @@
     margin-left: 30px;
   }
   .main-slider-active .slick-dots {
-    display: none;
+    position: absolute;
+    left: 65%;
+    top: 100%;
+    z-index: 2;    
   }
   .shop-image-content {
     margin-left: 10px;
@@ -1897,7 +1900,7 @@
     padding: 0px 0px 0px 10px;
   }
   .spd-image-content {
-    margin-left: 0px;
+    margin-left: -8px;
   }
   .spd-product-detail {
     padding: 0px 0px 0px 10px;

@@ -462,6 +462,7 @@ label {
 }
 
 .custom-container {
+  width: 100%;
   max-width: 1790px;
 }
 
@@ -8023,22 +8024,11 @@ header.side-header {
   padding: 0 10% 0 10%;
 }
 
-
+/* 
 .top-product-area{
   width: 100%;
-}
+} 
 
 .best-selling-area{
-  /* width:100%; */
-}
-
-@media (max-width:1800px){
-
-  /* Top product area */
-  /* .best-selling-area .top-product-area{
-   transform:translatex(0px) translatey(0px);
-   margin-left:200px;
-   margin-right:200px;
-  } */
-  
- }
+  width:100%;
+} */

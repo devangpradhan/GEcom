@@ -2,7 +2,7 @@
 /* Border */
 .section-border {
   border-top: 1px solid #e7e7e7;
-  overflow: hidden;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 /* Image Swap */

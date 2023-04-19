@@ -259,6 +259,7 @@ label {
 .header-top-offer > p span,
 .header-top-action > ul > li.sign-in a:hover,
 .header-top-action > ul > li > a:hover,
+.header-top-action > ul > li > form:hover,
 .category-menu > li:hover > a,
 .category-menu .cat-mega-menu ul li a:hover,
 .navbar-wrap > ul > li.active > a,

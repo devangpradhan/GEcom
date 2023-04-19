@@ -193,7 +193,7 @@
  * ----------------------------------------------------------------------------
  */
 
- 
+
  .footer-middle-wrap .footer-text .mbutton{
   margin-left:0px;
  }
@@ -437,7 +437,11 @@ form .btun input[type="submit"] {
 }
 
 
-/* Search */
+ /**
+ * ----------------------------------------------------------------------------
+ * Search
+ * ----------------------------------------------------------------------------
+ */
 
 .header-search {
 }
@@ -447,7 +451,6 @@ form .btun input[type="submit"] {
   left:30px;
   font-size: 15px;
   font-weight: 500;
-  /* color: #fff; */
 }
 
 .searchbar{

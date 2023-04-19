@@ -1445,7 +1445,11 @@
   }
 
   .main-slider-active .slick-dots {
-    display: none;
+    transform:scale(0.75);
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    z-index: 2;
   }
 
   .shop-image-content {
@@ -1693,7 +1697,11 @@
     padding: 45px 40px 60px;
   }
   .main-slider-active .slick-dots {
-    display: none;
+    transform:scale(0.75);
+    position: absolute;
+    left: 80%;
+    top: 85%;
+    z-index: 2;
   }
 }
 
@@ -1894,6 +1902,7 @@
     margin-left: 30px;
   }
   .main-slider-active .slick-dots {
+    transform:scale(0.25);
     position: absolute;
     left: 65%;
     top: 100%;

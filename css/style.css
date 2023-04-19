@@ -455,6 +455,12 @@ label {
 }
 
 /* 2. Header */
+
+.wrap {
+  max-width: 85.375rem;
+  margin: 0 auto;
+}
+
 .custom-container {
   max-width: 1790px;
 }
@@ -510,7 +516,8 @@ label {
   color: #fff;
 }
 
-.header-top-action > ul > li.sign-in::after {
+.header-top-action > ul > li.sign-in::before {
+  content: "|";
   display: inline-block;
   padding-left: 15px;
   font-size: 12px;
@@ -524,8 +531,9 @@ label {
   color: #fff;
 }
 
+
 .header-top-action > ul > li.header-search::after {
-  content: "|";
+  /* content: "|"; */
   display: inline-block;
   padding-left: 15px;
   font-size: 15px;
@@ -2062,7 +2070,7 @@ header.side-header {
 }
 
 /* 3. Search modal */
-#search-modal {
+/* #search-modal {
   opacity: 0.55;
   background-color: rgba(23, 26, 33, 0.95);
 }
@@ -2123,7 +2131,7 @@ header.side-header {
   border: none;
   cursor: pointer;
   top: 8px;
-}
+} */
 
 .modal-backdrop {
   z-index: 1;

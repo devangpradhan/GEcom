@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="no-js" lang="">
 
 <head>
     <meta charset="utf-8">
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
+
 
 </head>
 
@@ -156,10 +157,13 @@
                                 </div>
                                 <div class="header-action d-none d-md-block">
                                     <ul>
-                                        <div class="header-top-action ">
+                                        <div class="header-top-action">
                                             <ul>
-                                                <li class="header-search ">
+                                                <li class="header-search">
 
+                                                    <!-- <a href="#">
+                                                            <i class="flaticon-search-interface-symbol"></i>
+                                                        </a> -->
                                                     <form class="searchbar">
                                                         <input type="search" placeholder="Search here" name="search"
                                                             class="searchbar-input" onkeyup="buttonUp();" required>
@@ -170,6 +174,9 @@
                                                         </span>
                                                     </form>
 
+                                                    <!-- <a href="#" data-toggle="modal" data-target="#search-modal">
+                                                        <i class="flaticon-search-interface-symbol"></i>
+                                                    </a> -->
                                                 </li>
 
                                                 <li class="sign-in"><a href="login.html"><i
@@ -287,96 +294,355 @@
         </div>
         <!-- Modal Search-end -->
 
-
     </header>
     <!-- header-area-end -->
     <!-- main-area -->
     <main>
-        <!-- contact-area -->
-        <section class="contact-area pt-100 pb-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="contact-wrap">
-                            <div class="section-title title-style-three mb-30">
-                                <span class="sub-title">Contact Us Now</span>
-                                <h2 class="title">Write a Message</h2>
-                            </div>
-                            <form action="#" class="contact-form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Your Name *">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="email" placeholder="Your Email *">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Your Phone">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <textarea name="message" placeholder="Your Message"></textarea>
-                                <button class="btn">Submit</button>
-                            </form>
-                        </div>
+        <section class="filter" style="display: none;">
+            <div class="CollectionToolbar CollectionToolbar--top CollectionToolbar--reverse">
+                <div class="CollectionToolbar__Group"><button
+                        class="CollectionToolbar__Item CollectionToolbar__Item--filter Heading Text--subdued u-h6 "
+                        data-action="open-drawer" data-drawer-id="collection-filter-drawer"
+                        aria-label="Filtreleri Göster">
+                        FİLTRE
+                    </button><button
+                        class="CollectionToolbar__Item CollectionToolbar__Item--sort Heading Text--subdued u-h6"
+                        aria-label="Filtreleri Göster" aria-haspopup="true" aria-expanded="false"
+                        aria-controls="collection-sort-popover">
+                        SIRALA <svg class="Icon Icon--select-arrow" role="presentation" viewBox="0 0 19 12">
+                            <polyline fill="none" stroke="currentColor" points="17 2 9.5 10 2 2" fill-rule="evenodd"
+                                stroke-width="2" stroke-linecap="square"></polyline>
+                        </svg>
+                    </button></div>
+                <div class="CollectionToolbar__Item CollectionToolbar__Item--layout">
+                    <div class="CollectionToolbar__LayoutSwitch hidden-tablet-and-up">
+                        <button aria-label="" class="CollectionToolbar__LayoutType " data-action="change-layout-mode"
+                            data-grid-type="mobile" data-count="1"><svg class="Icon Icon--wall-1" role="presentation"
+                                viewBox="0 0 36 36">
+                                <rect fill="currentColor" width="36" height="36"></rect>
+                            </svg></button>
+                        <button aria-label="" class="CollectionToolbar__LayoutType is-active"
+                            data-action="change-layout-mode" data-grid-type="mobile" data-count="2"><svg
+                                class="Icon Icon--wall-2" role="presentation" viewBox="0 0 36 36">
+                                <path fill="currentColor"
+                                    d="M21 36V21h15v15H21zm0-36h15v15H21V0zM0 21h15v15H0V21zM0 0h15v15H0V0z">
+                                </path>
+                            </svg></button>
                     </div>
-                    <div class="col-lg-4 col-md-7">
-                        <aside class="contact-sidebar">
-                            <div class="widget">
-                                <div class="contact-sidebar-img mb-05">
-                                    <img src="img/images/contact_img.png" alt="">
-                                </div>
-                            </div>
-                            <div class="widget">
-                                <div class="contact-info-wrap">
-                                    <ul>
-                                        <li>
-                                            <div class="icon"><i class="flaticon-phone-call"></i></div>
-                                            <div class="content">
-                                                <h5>Phone</h5>
-                                                <p><a href="tel:0321654987">+ 91 9711 09 09 09</a></p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon"><i class="flaticon-email"></i></div>
-                                            <div class="content">
-                                                <h5>Email</h5>
-                                                <p><a href="mailto:adara@info.com">info@goldmedalindia.com</a></p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon"><i class="flaticon-place"></i></div>
-                                            <div class="content">
-                                                <h5>Address</h5>
-                                                <p>Bldg. No. 2, Shripal Industrial Estate, Valliv Road,
-                                                    Valliv, Vasai East, Palghar, Maharashtra - 401208
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </aside>
+
+                    <div class="CollectionToolbar__LayoutSwitch hidden-phone">
+                        <button aria-label="" class="CollectionToolbar__LayoutType" data-action="change-layout-mode"
+                            data-grid-type="desktop" data-count="2"><svg class="Icon Icon--wall-2" role="presentation"
+                                viewBox="0 0 36 36">
+                                <path fill="currentColor"
+                                    d="M21 36V21h15v15H21zm0-36h15v15H21V0zM0 21h15v15H0V21zM0 0h15v15H0V0z">
+                                </path>
+                            </svg></button>
+                        <button aria-label="" class="CollectionToolbar__LayoutType is-active"
+                            data-action="change-layout-mode" data-grid-type="desktop" data-count="4"><svg
+                                class="Icon Icon--wall-4" role="presentation" viewBox="0 0 36 36">
+                                <path fill="currentColor"
+                                    d="M28 36v-8h8v8h-8zm0-22h8v8h-8v-8zm0-14h8v8h-8V0zM14 28h8v8h-8v-8zm0-14h8v8h-8v-8zm0-14h8v8h-8V0zM0 28h8v8H0v-8zm0-14h8v8H0v-8zM0 0h8v8H0V0z">
+                                </path>
+                            </svg></button>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- contact-area-end -->
+        <!-- trending-product-area -->
+        <section class="new-arrival-area pt-95 pb-45">
+            <div class="container">
+                <!-- Grid 1 -->
+                <div class="row new-arrival-active">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/11_proimg.png">
+                                    <img src="img/proimg/12_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
 
-        <!-- contact-map -->
-        <div id="contact-map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d120588.30284094668!2d72.833886!3d19.178403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f240000001%3A0xbeac970aa5031645!2sGoldmedal%20Electricals%20Pvt.%20Ltd.!5e0!3m2!1sen!2sus!4v1682070689654!5m2!1sen!2sus"
-                width="1920" height="430" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <!-- contact-map-end -->
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/13_proimg.png">
+                                    <img src="img/proimg/14_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/15_proimg.png">
+                                    <img src="img/proimg/16_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/17_proimg.png">
+                                    <img src="img/proimg/18_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Grid 2 -->
+                <div class="row new-arrival-active">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/19_proimg.png">
+                                    <img src="img/proimg/20_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/21_proimg.png">
+                                    <img src="img/proimg/22_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/23_proimg.png">
+                                    <img src="img/proimg/24_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/25_proimg.png">
+                                    <img src="img/proimg/26_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Grid 3 -->
+                <div class="row new-arrival-active">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/29_proimg.png">
+                                    <img src="img/proimg/30_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/31_proimg.png">
+                                    <img src="img/proimg/32_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/33_proimg.png">
+                                    <img src="img/proimg/34_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/35_proimg.png">
+                                    <img src="img/proimg/36_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- trending-product-area-end -->
+
+        <!-- Recentluy Viewed -->
+        <section class="new-arrival-area pt-45 pb-45 section-border">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="section-title title-style-two text-center mb-50">
+                            <h3 class="title">Recently Viewed</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start -->
+                <div class="row new-arrival-active">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/27_proimg.png">
+                                    <img src="img/proimg/28_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/27_proimg.png">
+                                    <img src="img/proimg/28_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/27_proimg.png">
+                                    <img src="img/proimg/28_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
+                        <div class="new-arrival-item text-center mb-50">
+                            <div class="thumb mb-25 pimg-hover">
+                                <a href="product.html" alt="">
+                                    <img src="img/proimg/27_proimg.png">
+                                    <img src="img/proimg/28_proimg.png">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h5><a href="product.html">Product</a></h5>
+                                <span class="pdetails">Goldmedal Product</span>
+                                <span class="price">₹ 1,215.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End -->
+            </div>
+        </section>
+        <!-- Recentluy Viewed -->
+
+
 
     </main>
     <!-- main-area-end -->
-
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -469,8 +735,6 @@
     </footer>
     <!-- footer-area-end -->
     <!-- JS here -->
-
-
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -488,8 +752,6 @@
     <script src="js/nav-tool.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-
 </body>
 
 </html>

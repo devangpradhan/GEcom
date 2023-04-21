@@ -374,10 +374,91 @@
     <!-- header-area-end -->
     <!-- main-area -->
     <main>
-        
+        <!-- contact-area -->
+        <section class="contact-area pt-100 pb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-wrap">
+                            <div class="section-title title-style-three mb-30">
+                                <span class="sub-title">Contact Us Now</span>
+                                <h2 class="title">Write a Message</h2>
+                            </div>
+                            <form action="#" class="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="Your Name *">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" placeholder="Your Email *">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="Your Phone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <textarea name="message" placeholder="Your Message"></textarea>
+                                <button class="btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-7">
+                        <aside class="contact-sidebar">
+                            <div class="widget">
+                                <div class="contact-sidebar-img mb-05">
+                                    <img src="img/images/contact_img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="contact-info-wrap">
+                                    <ul>
+                                        <li>
+                                            <div class="icon"><i class="flaticon-phone-call"></i></div>
+                                            <div class="content">
+                                                <h5>Phone</h5>
+                                                <p><a href="tel:0321654987">+ 91 9711 09 09 09</a></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><i class="flaticon-email"></i></div>
+                                            <div class="content">
+                                                <h5>Email</h5>
+                                                <p><a href="mailto:adara@info.com">info@goldmedalindia.com</a></p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><i class="flaticon-place"></i></div>
+                                            <div class="content">
+                                                <h5>Address</h5>
+                                                <p>Bldg. No. 2, Shripal Industrial Estate, Valliv Road,
+                                                    Valliv, Vasai East, Palghar, Maharashtra - 401208
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact-area-end -->
+
+        <!-- contact-map -->
+        <div id="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d120588.30284094668!2d72.833886!3d19.178403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f240000001%3A0xbeac970aa5031645!2sGoldmedal%20Electricals%20Pvt.%20Ltd.!5e0!3m2!1sen!2sus!4v1682070689654!5m2!1sen!2sus"
+                width="1920" height="430" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- contact-map-end -->
 
     </main>
     <!-- main-area-end -->
+
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -397,7 +478,17 @@
                             <h4 class="fw-title">About #Goldmedal</h4>
                             <div class="footer-text pr-30">
                                 <p>
-                                    Established in 1979 by Shri Otmalji Goraji in Vijayawada, Andhra Pradesh, Goldmedal Electricals first started as a retailer of leading electrical brands in the country. Following the demise of Shri Otmalji Goraji, his son, and the current Chairman, Shri Jugraj Jain took on the mantle of running the business. Later on, his younger brother, Shri Praveen Jain joined the business. In 1981, the company ventured into the marketing of wires and cables under the Goldmedal brand. The company set up its first factory in Goregaon, Mumbai, to manufacture urea switches. In 2001, the company started manufacturing polycarbonate switches and launched its first series of switches called G-Magic. Following the success of this series, Goldmedal established a factory for manufacturing of wires and cables in Bhiwadi, near Delhi in 2005 followed
+                                    Established in 1979 by Shri Otmalji Goraji in Vijayawada, Andhra Pradesh, Goldmedal
+                                    Electricals first started as a retailer of leading electrical brands in the country.
+                                    Following the demise of Shri Otmalji Goraji, his son, and the current Chairman, Shri
+                                    Jugraj Jain took on the mantle of running the business. Later on, his younger
+                                    brother, Shri Praveen Jain joined the business. In 1981, the company ventured into
+                                    the marketing of wires and cables under the Goldmedal brand. The company set up its
+                                    first factory in Goregaon, Mumbai, to manufacture urea switches. In 2001, the
+                                    company started manufacturing polycarbonate switches and launched its first series
+                                    of switches called G-Magic. Following the success of this series, Goldmedal
+                                    established a factory for manufacturing of wires and cables in Bhiwadi, near Delhi
+                                    in 2005 followed
                                 </p>
                             </div>
                         </div>
@@ -436,15 +527,16 @@
                             <h4 class="fw-title">SIGN UP FOR NEWSLETTER</h4>
                             <div class="footer-text">
                                 <p>Get Free Shipping on all your orders!</p>
-                                <form method="post"  accept-charset="UTF-8" class="Footer_Newsletter col-sm-8">
-                                    <input type="email" name="contact[email]" class="Form_Input" aria-label="Email id" placeholder="Enter Your Email Address" required="">
+                                <form method="post" accept-charset="UTF-8" class="Footer_Newsletter col-sm-8">
+                                    <input type="email" name="contact[email]" class="Form_Input" aria-label="Email id"
+                                        placeholder="Enter Your Email Address" required="">
                                 </form>
                                 <div class="mbutton" id="mbutton-2">
                                     <div id="slide"></div>
                                     <a href="#">Subscribe</a>
                                 </div>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div class="row align-items-center">

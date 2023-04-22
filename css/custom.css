@@ -21,6 +21,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  
 }
 .pimg-hover img:nth-child(1):hover {
   opacity: 0;

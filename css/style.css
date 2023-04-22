@@ -4824,7 +4824,7 @@ header.side-header {
   bottom: 0;
   width: 100%;
   height: 3px;
-  background: #ff5400;
+  background: #ff0000;
   transition: 0.3s linear;
   opacity: 0;
 }
@@ -4849,7 +4849,7 @@ header.side-header {
 .features-product-thumb {
   position: relative;
   text-align: center;
-  padding: 43px 30px 10px;
+  /* padding: 43px 30px 10px; */
 }
 
 .features-product-thumb img {
@@ -7432,11 +7432,16 @@ header.side-header {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 9000;
+  z-index: 9000; 
 }
-
+ 
 .ctn-preloader .animation-preloader {
   z-index: 1000;
+  /* display: block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-image: url("/img/preloader.png"); */
+
 }
 
 .ctn-preloader .animation-preloader .spinner {
@@ -7444,7 +7449,7 @@ header.side-header {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #ff5400;
+  border-top-color: #ff0000;
   height: 150px;
   margin: 0 auto 0 auto;
   width: 150px;

@@ -19,7 +19,7 @@ function preloader() {
 
 $(window).on('load', function () {
 	preloader();
-	// mainSliderActive();
+	mainSliderActive();
 	thirdSlider();
 	h9Slider();
 	wowAnimation();
@@ -487,8 +487,8 @@ $('.features-product-active').slick({
 	dots: true,
 	infinite: true,
 	speed: 1000,
-	autoplaySpeed: 5000,
-	autoplay: false,
+	autoplaySpeed: 2000,
+	autoplay: true,
 	arrows: false,
 	slidesToShow: 5,
 	slidesToScroll: 2,

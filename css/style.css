@@ -3846,8 +3846,6 @@ header.side-header {
   font-weight: 300;
   margin-bottom: 20px;
   padding: 0;
-
-  /* left:20px; */
   letter-spacing: 1px;
 }
 
@@ -4253,6 +4251,10 @@ header.side-header {
   cursor: auto;
 }
 
+.shop-details-content{
+  width: 100%;
+}
+
 .shop-details-content > .product-cat {
   display: inline-block;
   text-transform: uppercase;
@@ -4290,12 +4292,13 @@ header.side-header {
   letter-spacing: 2px;
 }
 
+
+
 .product-details-info {
   border-top: 1px dotted #d8d8d8;
   border-bottom: 1px dotted #d8d8d8;
-  padding: 25px 0px 10px 14px;
-  width: 145% !important;
-  padding-left: 0px !important;
+  padding: 10px 0px 10px 14px;
+  overflow: hidden;
 }
 
 .product-details-info > span {

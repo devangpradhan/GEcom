@@ -517,3 +517,212 @@ form .btun input[type="submit"] {
 .searchbar-open{
   width:100%;
 }
+
+
+
+/* Top Product */
+
+.top-product-grid .col-2 {
+  max-width: 18.41%;
+  flex: 0 0 18.41%;
+}
+
+.top-product-grid .col-10 {
+  max-width: 81.59%;
+  flex: 0 0 81.59%;
+}
+
+.top-products-list {
+  background: #faf9f6;
+  border: 1px solid #f2f1f1;
+  padding: 85px 45px;
+  min-height: 100%;
+}
+
+.top-products-list > h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.s-list .nav-tabs {
+  flex-direction: column;
+  border: none;
+}
+
+.top-products-list .nav-tabs li {
+  position: relative;
+  padding-left: 16px;
+}
+
+.top-products-list .nav-tabs li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 6px;
+  height: 6px;
+  background: #494b57;
+  border-radius: 50%;
+}
+
+.top-products-list .nav-tabs li a {
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  color: #403a37;
+  font-family: "Neue Haas Unica", sans-serif;
+  font-weight: 500;
+  padding: 7px 0;
+}
+
+.top-products-list .nav-tabs li a.active {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.tp-tab-content .tab-pane.active {
+  display: flex;
+  align-items: flex-start;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.top-products-banner {
+  max-width: 28%;
+  flex: 0 0 26.8%;
+  padding: 0 15px;
+}
+
+.top-products-banner > a {
+  display: block;
+}
+
+.top-products-banner img {
+  max-width: 100%;
+}
+
+.tp-tab-content .top-product-active {
+  margin: 0;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.top-product-active .features-product-item,
+.top-product-active .features-product-content {
+  background: #f9f8f5;
+}
+
+.title-style-two {
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.title-style-two::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 90px;
+  height: 1px;
+  background: #dbdad8;
+  margin: 0 auto;
+}
+
+.top-product-two .top-products-list {
+  background: #fff;
+  border: 1px solid #f1f0f0;
+  padding: 70px 45px;
+}
+
+.top-product-two .top-products-list .nav-tabs li::before {
+  background: #7e7f87;
+}
+
+.top-product-two .top-products-list .offer {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-family: "Neue Haas Unica", sans-serif;
+  margin-top: 28px;
+}
+
+.top-product-two .top-products-list .offer a {
+  text-decoration: underline;
+}
+
+.top-product-two .top-product-active .features-product-item,
+.top-product-two .top-product-active .features-product-content {
+  background: #fff;
+}
+
+/* Special Product */
+
+.spd-details-content > .product-cat {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #403a37;
+  font-size: 10px;
+  font-family: Neue Haas Unica, sans-serif;
+  margin-bottom: 7px;
+  letter-spacing: 2px;
+}
+
+.spd-details-content .title {
+  font-size: 20px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.spd-details-content .rating {
+  font-size: 12px;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: #ff5400;
+  margin-bottom: 10px;
+}
+
+.spd-details-content .style-name {
+  margin-bottom: 30px;
+  color: #403a37;
+}
+
+.spd-details-content .price {
+  font-size: 18px;
+  font-weight: 300;
+  color: #403a37;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.spd-details-info {
+  border-top: 1px dotted #d8d8d8;
+  border-bottom: 1px dotted #d8d8d8;
+  padding: 25px 0px 10px 14px;
+  width: 145% !important;
+  padding-left: 0px !important;
+}
+
+.spd-details-info > span {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #403a37;
+  font-family: "Neue Haas Unica", sans-serif;
+  margin-bottom: 20px;
+}
+
+.spd-details-info > span a {
+  text-decoration: underline;
+  color: #403a37;
+  font-weight: 600;
+}
+.spd-details-content {
+  padding-left: 75px;
+}
+
+.trending-product-area {
+  margin: 0 5% 0 5%;
+}
+

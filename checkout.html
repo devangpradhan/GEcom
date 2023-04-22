@@ -298,13 +298,19 @@
     <main>
 
         <!-- breadcrumb-area -->
-        <section>
-            <div class="container pt-5">
-                <div class="row justify-content-center">
-                    <div class="row">
-                        <nav aria-label="breadcrumb">
-                            <a href="cart.html" class="back"><i class="fas fa-angle-left"></i> -- Back to Cart</a>
-                        </nav>
+        <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/bgbnr.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcrumb-content">
+                            <h2 >Our Shop</h2>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="cart.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                                </ol>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -723,7 +729,7 @@
                                                 to the website terms and conditions</label>
                                         </div>
                                     </div>
-                                    <button class="btn">Place order</button>
+                                    <button class="btn" type="submit" formaction="order-completed.html">Place order</button>
                                 </form>
                             </div>
                         </aside>

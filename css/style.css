@@ -7437,10 +7437,9 @@ header.side-header {
  
 .ctn-preloader .animation-preloader {
   z-index: 1000;
-  /* display: block;
-  margin: 0 auto;
+  place-items: center;
   background-repeat: no-repeat;
-  background-image: url("/img/preloader.png"); */
+  background-image: url("/img/preloader.png");
 
 }
 

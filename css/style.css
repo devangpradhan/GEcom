@@ -3322,7 +3322,8 @@ header.side-header {
 }
 
 .h9-discount-banner-wrap {
-  padding: 0 0px;
+  width: 90%;
+  margin: 0 5% 0 5%;
   position: relative;
   z-index: 1;
 }
@@ -4298,6 +4299,7 @@ header.side-header {
   border-top: 1px dotted #d8d8d8;
   border-bottom: 1px dotted #d8d8d8;
   padding: 10px 0px 10px 14px;
+  /* padding-left: 0px !important; */
   overflow: hidden;
 }
 
@@ -5793,8 +5795,8 @@ header.side-header {
 }
 
 .trending-products-banner {
-  max-width: 26.8%;
-  flex: 0 0 26.8%;
+  max-width: 30%;
+  flex: 0 0 30%;
   padding: 5% 1% 5% 1%;
 }
 
@@ -8031,7 +8033,7 @@ header.side-header {
 }
 
 .trending-product-area {
-  padding: 0 10% 0 10%;
+  margin: 0 5% 0 5%;
 }
 
 

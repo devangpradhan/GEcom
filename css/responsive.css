@@ -1,9 +1,9 @@
 /* Extra large devices (large desktops, 1800px and up) */
 @media (max-width: 1800px) {
-  .trending-products-banner {
+  /* .trending-products-banner {
     max-width: 28%;
     flex: 0 0 28%;
-  }
+  } */
   .top-products-banner {
     max-width: 25%;
     flex: 0 0 25%;
@@ -101,10 +101,10 @@
     max-width: 78%;
     flex: 0 0 78%;
   }
-  .trending-products-banner {
+  /* .trending-products-banner {
     max-width: 36%;
     flex: 0 0 36%;
-  }
+  } */
   .top-product-grid .col-2 {
     max-width: 22%;
     flex: 0 0 22%;
@@ -364,10 +364,10 @@
     max-width: 70%;
     flex: 0 0 70%;
   }
-  .trending-products-banner {
+  /* .trending-products-banner {
     max-width: 40%;
     flex: 0 0 40%;
-  }
+  } */
   .top-product-grid .col-2 {
     max-width: 100%;
     flex: 0 0 30%;
@@ -752,10 +752,10 @@
   .cat-banner-item .content > span {
     font-size: 12px;
   }
-  .trending-products-banner {
+  /* .trending-products-banner {
     max-width: 28%;
     flex: 0 0 28%;
-  }
+  } */
   .trending-product-grid .col-2 {
     max-width: 50%;
     flex: 0 0 50%;
@@ -1083,7 +1083,6 @@
   .trending-products-banner {
     display: block;
     max-width: 100%;
-    flex: 0 0 100%;
     margin-bottom: 30px;
   }
   .top-products-list {

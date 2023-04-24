@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
-
 
 </head>
 
@@ -158,13 +157,9 @@
                                 </div>
                                 <div class="header-action d-none d-md-block">
                                     <ul>
-                                        <div class="header-top-action">
+                                        <div class="header-top-action ">
                                             <ul>
-                                                <li class="header-search">
-
-                                                    <!-- <a href="#">
-                                                            <i class="flaticon-search-interface-symbol"></i>
-                                                        </a> -->
+                                                <li class="header-search ">
                                                     <form class="searchbar">
                                                         <input type="search" placeholder="Search here" name="search"
                                                             class="searchbar-input" onkeyup="buttonUp();" required>
@@ -174,16 +169,36 @@
                                                                 aria-hidden="true"></i></i>
                                                         </span>
                                                     </form>
-
-                                                    <!-- <a href="#" data-toggle="modal" data-target="#search-modal">
-                                                        <i class="flaticon-search-interface-symbol"></i>
-                                                    </a> -->
                                                 </li>
 
-                                                <li class="sign-in"><a href="login.html"><i
-                                                            class="flaticon-user"></i></a></li>
-                                                <li class="wish-list"><a href="#"><i
-                                                            class="flaticon-heart-shape-outline"></i></a></li>
+                                                <li class="header-top-user">
+                                                    <div class="top-user-thumb">
+                                                        <img src="img/images/header_top_user.jpg" alt="">
+                                                    </div>
+                                                    <ul class="minmenu">
+                                                        <li class="d-flex align-items-center">
+                                                            <div class="user-content">
+                                                                <h6><a href="profile.html"><i class="far fa-user"></i>
+                                                                        My Profile</a></h6>
+                                                                <h6><a href="order.html"><i class="far fa-list-alt"></i>
+                                                                        Order History</a></h6>
+                                                                <h6><a href="wishlist.html"><i
+                                                                            class="far fa-list-alt"></i> Wishlist</a>
+                                                                </h6>
+                                                                <h6><a href="profile.html"><i
+                                                                            class="far fa-address-card"></i> Address</a>
+                                                                </h6>
+                                                                <h6><a href="404.html"><i
+                                                                            class="fas fa-sign-out-alt"></i> Sign
+                                                                        Out</a></h6>
+
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+
+
                                                 <li class="header-shop-cart"><a href="cart.html"><i
                                                             class="flaticon-shopping-bag"></i><span>2</span></a>
                                                     <ul class="minicart">
@@ -241,7 +256,7 @@
                         </div>
                         <!-- Mobile Menu  -->
                         <div class="mobile-menu">
-                            <div class="close-btn"><i class="flaticon-targeting-cross"></i></div>
+                            <div class="close-btn"><i class="flaticon-close"></i></div>
                             <nav class="menu-box">
                                 <div class="nav-logo">
                                     <a href="index.html">
@@ -297,328 +312,125 @@
 
     </header>
     <!-- header-area-end -->
+
     <!-- main-area -->
     <main>
 
-        <!-- trending-product-area -->
-        <section class="new-arrival-area pt-45 pb-45">
-            <div class="container custom-container">
-                <div class="shop-top-meta mb-35">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="shop-top-left">
-                                <ul>
-                                    <li><a href="#"><i class="flaticon-menu"></i> FILTER</a></li>
-                                    <li>Showing 1–9 of 80 results</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="shop-top-right">
-                                <form action="#">
-                                    <select name="select">
-                                        <option value="">Sort by newness</option>
-                                        <option>Free Shipping</option>
-                                        <option>Best Match</option>
-                                        <option>Newest Item</option>
-                                        <option>Size A - Z</option>
-                                    </select>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Grid 1 -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/11_proimg.png">
-                                    <img src="img/proimg/12_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/13_proimg.png">
-                                    <img src="img/proimg/14_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/15_proimg.png">
-                                    <img src="img/proimg/16_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/17_proimg.png">
-                                    <img src="img/proimg/18_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Grid 2 -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/19_proimg.png">
-                                    <img src="img/proimg/20_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/21_proimg.png">
-                                    <img src="img/proimg/22_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/23_proimg.png">
-                                    <img src="img/proimg/24_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/25_proimg.png">
-                                    <img src="img/proimg/26_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Grid 3 -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/29_proimg.png">
-                                    <img src="img/proimg/30_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/31_proimg.png">
-                                    <img src="img/proimg/32_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/33_proimg.png">
-                                    <img src="img/proimg/34_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/35_proimg.png">
-                                    <img src="img/proimg/36_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- trending-product-area-end -->
-
-        <!-- Recentluy Viewed -->
-        <section class="new-arrival-area pt-45 pb-45 section-border">
+        <!-- wishlist-area -->
+        <section class="wishlist-area pt-100 pb-100">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="section-title title-style-two text-center mb-50">
-                            <h3 class="title">Recently Viewed</h3>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table-responsive-xl">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="product-thumbnail"></th>
+                                        <th class="product-name">Product</th>
+                                        <th class="product-price">Price</th>
+                                        <th class="product-quantity">QUANTITY</th>
+                                        <th class="product-subtotal">SUBTOTAL</th>
+                                        <th class="product-stock-status">Stock Status</th>
+                                        <th class="product-add-to-cart"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#" class="wishlist-remove"><i
+                                                    class="flaticon-close"></i></a><a href="shop-details.html"><img
+                                                    src="img/product/wishlist_thumb01.jpg" alt=""></a>
+                                        </td>
+                                        <td class="product-name">
+                                            <h4><a href="shop-details.html">Spike Gurd</a></h4>
+                                            <p>Cramond Leopard & Pythong Anorak</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </td>
+                                        <td class="product-price">₹29.00</td>
+                                        <td class="product-quantity">
+                                            <div class="cart-plus">
+                                                <form action="#">
+                                                    <div class="cart-plus-minus">
+                                                        <input type="text" value="2">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                        <td class="product-subtotal"><span>₹ 68.00</span></td>
+                                        <td class="product-stock-status"><span>In Stock</span></td>
+                                        <td class="product-add-to-cart">
+                                            <a href="cart.html" class="btn">Add to Cart</a>
+                                            <span>Added on March 10. 2020</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#" class="wishlist-remove"><i
+                                                    class="flaticon-close"></i></a><a href="shop-details.html"><img
+                                                    src="img/product/wishlist_thumb02.jpg" alt=""></a>
+                                        </td>
+                                        <td class="product-name">
+                                            <h4><a href="shop-details.html">Woman Lathers Jacket</a></h4>
+                                            <p>Cramond Leopard & Pythong Anorak</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </td>
+                                        <td class="product-price">₹29.00</td>
+                                        <td class="product-quantity">
+                                            <div class="cart-plus">
+                                                <form action="#">
+                                                    <div class="cart-plus-minus">
+                                                        <input type="text" value="2">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                        <td class="product-subtotal"><span>₹68.00</span></td>
+                                        <td class="product-stock-status"><span>In Stock</span></td>
+                                        <td class="product-add-to-cart">
+                                            <a href="cart.html" class="btn">Add to Cart</a>
+                                            <span>Added on March 10. 2020</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#" class="wishlist-remove"><i
+                                                    class="flaticon-close"></i></a><a href="shop-details.html"><img
+                                                    src="img/product/wishlist_thumb03.jpg" alt=""></a>
+                                        </td>
+                                        <td class="product-name">
+                                            <h4><a href="shop-details.html">Woman Lathers Jacket</a></h4>
+                                            <p>Cramond Leopard & Pythong Anorak</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </td>
+                                        <td class="product-price">₹29.00</td>
+                                        <td class="product-quantity">
+                                            <div class="cart-plus">
+                                                <form action="#">
+                                                    <div class="cart-plus-minus">
+                                                        <input type="text" value="2">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                        <td class="product-subtotal"><span>₹ 68.00</span></td>
+                                        <td class="product-stock-status"><span>In Stock</span></td>
+                                        <td class="product-add-to-cart">
+                                            <a href="cart.html" class="btn">Add to Cart</a>
+                                            <span>Added on March 10. 2020</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
-                <!-- Start -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- End -->
             </div>
         </section>
-        <!-- Recentluy Viewed -->
-
-
+        <!-- wishlist-area-end -->
 
     </main>
     <!-- main-area-end -->
+
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -711,6 +523,8 @@
     </footer>
     <!-- footer-area-end -->
     <!-- JS here -->
+
+
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -723,11 +537,15 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jarallax.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/nav-tool.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+
 </body>
 
 </html>

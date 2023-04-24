@@ -1,5 +1,5 @@
-<!doctype html>
-<html class="no-js" lang="">
+﻿<!doctype html>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
-
 
 </head>
 
@@ -158,13 +157,9 @@
                                 </div>
                                 <div class="header-action d-none d-md-block">
                                     <ul>
-                                        <div class="header-top-action">
+                                        <div class="header-top-action ">
                                             <ul>
-                                                <li class="header-search">
-
-                                                    <!-- <a href="#">
-                                                            <i class="flaticon-search-interface-symbol"></i>
-                                                        </a> -->
+                                                <li class="header-search ">
                                                     <form class="searchbar">
                                                         <input type="search" placeholder="Search here" name="search"
                                                             class="searchbar-input" onkeyup="buttonUp();" required>
@@ -174,16 +169,28 @@
                                                                 aria-hidden="true"></i></i>
                                                         </span>
                                                     </form>
-
-                                                    <!-- <a href="#" data-toggle="modal" data-target="#search-modal">
-                                                        <i class="flaticon-search-interface-symbol"></i>
-                                                    </a> -->
                                                 </li>
 
-                                                <li class="sign-in"><a href="login.html"><i
-                                                            class="flaticon-user"></i></a></li>
-                                                <li class="wish-list"><a href="#"><i
-                                                            class="flaticon-heart-shape-outline"></i></a></li>
+                                                <li class="header-top-user">
+                                                    <div class="top-user-thumb">
+                                                        <img src="img/images/header_top_user.jpg" alt="">
+                                                    </div>
+                                                    <ul class="minmenu">
+                                                        <li class="d-flex align-items-center">
+                                                            <div class="user-content">
+                                                                <h6><a href="profile.html"><i class="far fa-user"></i> My Profile</a></h6>
+                                                                <h6><a href="order.html"><i class="far fa-list-alt"></i> Order History</a></h6>
+                                                                <h6><a href="wishlist.html"><i class="far fa-list-alt"></i> Wishlist</a></h6>
+                                                                <h6><a href="profile.html"><i class="far fa-address-card"></i> Address</a></h6>
+                                                                <h6><a href="404.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a></h6>
+
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+
+
                                                 <li class="header-shop-cart"><a href="cart.html"><i
                                                             class="flaticon-shopping-bag"></i><span>2</span></a>
                                                     <ul class="minicart">
@@ -297,328 +304,176 @@
 
     </header>
     <!-- header-area-end -->
+
+
     <!-- main-area -->
     <main>
 
-        <!-- trending-product-area -->
-        <section class="new-arrival-area pt-45 pb-45">
-            <div class="container custom-container">
-                <div class="shop-top-meta mb-35">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="shop-top-left">
-                                <ul>
-                                    <li><a href="#"><i class="flaticon-menu"></i> FILTER</a></li>
-                                    <li>Showing 1–9 of 80 results</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="shop-top-right">
-                                <form action="#">
-                                    <select name="select">
-                                        <option value="">Sort by newness</option>
-                                        <option>Free Shipping</option>
-                                        <option>Best Match</option>
-                                        <option>Newest Item</option>
-                                        <option>Size A - Z</option>
-                                    </select>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Grid 1 -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/11_proimg.png">
-                                    <img src="img/proimg/12_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/13_proimg.png">
-                                    <img src="img/proimg/14_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/15_proimg.png">
-                                    <img src="img/proimg/16_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/17_proimg.png">
-                                    <img src="img/proimg/18_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Grid 2 -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/19_proimg.png">
-                                    <img src="img/proimg/20_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/21_proimg.png">
-                                    <img src="img/proimg/22_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/23_proimg.png">
-                                    <img src="img/proimg/24_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/25_proimg.png">
-                                    <img src="img/proimg/26_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Grid 3 -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/29_proimg.png">
-                                    <img src="img/proimg/30_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/31_proimg.png">
-                                    <img src="img/proimg/32_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/33_proimg.png">
-                                    <img src="img/proimg/34_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/35_proimg.png">
-                                    <img src="img/proimg/36_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- trending-product-area-end -->
-
-        <!-- Recentluy Viewed -->
-        <section class="new-arrival-area pt-45 pb-45 section-border">
+        <!-- author-profile-area -->
+        <div class="author-profile-area gray-lite-bg pt-120 pb-120">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="section-title title-style-two text-center mb-50">
-                            <h3 class="title">Recently Viewed</h3>
+                    <div class="col-xl-12 col-lg-12 col-md-21 order-2 order-lg-0">
+                            <div class="inventory-meta-wrap mb-35">
+                                <div class="inventory-top-meta">
+                                    <ul>
+                                        <li class="find">Recent Order : <span>6</span></li>
+                                        <li>
+                                            <form action="#" class="inventory-short-meta">
+                                                <label>Sort by :</label>
+                                                <select name="name" class="selected">
+                                                    <option value="">New Listed : Newest</option>
+                                                    <option value="">Old Listed : Oldest</option>
+                                                    <option value="">Price High to Low</option>
+                                                    <option value="">Price Low to High</option>
+                                                    <option value="">Most Popular</option>
+                                                </select>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="inventory-list-item">
+                                <div class="inventory-list-thumb">
+                                    <img src="img/product/order_list_img01.jpg" alt="">
+                                </div>
+                                <div class="inventory-list-content">
+                                    <div class="inv-content-top">
+                                        <ul>
+                                            <li class="price">Spiek Gurd</li>
+                                            <li class="price">₹,1000</li>
+                                        </ul>
+                                    </div>
+    
+                                    <p class="location">Product Discription</p>
+                                    <div class="inv-item-meta">
+                                        <ul>
+                                            <li class="location">Lorem Ipsum has been the industry's standard dummy text
+                                                ever since the 1500s, It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages,</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-list-item">
+                                <div class="inventory-list-thumb">
+                                    <img src="img/product/order_list_img02.jpg" alt="">
+                                </div>
+                                <div class="inventory-list-content">
+                                    <div class="inv-content-top">
+                                        <ul>
+                                            <li class="price">Spiek Gurd</li>
+                                            <li class="price">₹,1000</li>
+                                        </ul>
+                                    </div>
+    
+                                    <p class="location">Product Discription</p>
+                                    <div class="inv-item-meta">
+                                        <ul>
+                                            <li class="location">Lorem Ipsum has been the industry's standard dummy text
+                                                ever since the 1500s, It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages,</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-list-item">
+                                <div class="inventory-list-thumb">
+                                    <img src="img/product/order_list_img03.jpg" alt="">
+                                </div>
+                                <div class="inventory-list-content">
+                                    <div class="inv-content-top">
+                                        <ul>
+                                            <li class="price">Spiek Gurd</li>
+                                            <li class="price">₹,1000</li>
+                                        </ul>
+                                    </div>
+    
+                                    <p class="location">Product Discription</p>
+                                    <div class="inv-item-meta">
+                                        <ul>
+                                            <li class="location">Lorem Ipsum has been the industry's standard dummy text
+                                                ever since the 1500s, It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages,</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-list-item">
+                                <div class="inventory-list-thumb">
+                                    <img src="img/product/order_list_img04.jpg" alt="">
+                                </div>
+                                <div class="inventory-list-content">
+                                    <div class="inv-content-top">
+                                        <ul>
+                                            <li class="price">Spiek Gurd</li>
+                                            <li class="price">₹,1000</li>
+                                        </ul>
+                                    </div>
+                                    <p class="location">Product Discription</p>
+                                    <div class="inv-item-meta">
+                                        <ul>
+                                            <li class="location">Lorem Ipsum has been the industry's standard dummy text
+                                                ever since the 1500s, It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages,</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-list-item">
+                                <div class="inventory-list-thumb">
+                                    <img src="img/product/order_list_img05.jpg" alt="">
+                                </div>
+                                <div class="inventory-list-content">
+                                    <div class="inv-content-top">
+                                        <ul>
+                                            <li class="price">Spiek Gurd</li>
+                                            <li class="price">₹,1000</li>
+                                        </ul>
+                                    </div>
+    
+                                    <p class="location">Product Discription</p>
+                                    <div class="inv-item-meta">
+                                        <ul>
+                                            <li class="location">Lorem Ipsum has been the industry's standard dummy text
+                                                ever since the 1500s, It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages,</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inventory-list-item">
+                                <div class="inventory-list-thumb">
+                                    <img src="img/product/order_list_img06.jpg" alt="">
+                                </div>
+                                <div class="inventory-list-content">
+                                    <div class="inv-content-top">
+                                        <ul>
+                                            <li class="price">Spiek Gurd</li>
+                                            <li class="price">₹,1000</li>
+                                        </ul>
+                                    </div>
+    
+                                    <p class="location">Product Discription</p>
+                                    <div class="inv-item-meta">
+                                        <ul>
+                                            <li class="location">Lorem Ipsum has been the industry's standard dummy text
+                                                ever since the 1500s, It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages,</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Start -->
-                <div class="row new-arrival-active">
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 grid-item grid-sizer">
-                        <div class="new-arrival-item text-center mb-50">
-                            <div class="thumb mb-25 pimg-hover">
-                                <a href="product.html" alt="">
-                                    <img src="img/proimg/27_proimg.png">
-                                    <img src="img/proimg/28_proimg.png">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h5><a href="product.html">Product</a></h5>
-                                <span class="pdetails">Goldmedal Product</span>
-                                <span class="price">₹ 1,215.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- End -->
             </div>
-        </section>
-        <!-- Recentluy Viewed -->
-
-
+        </div>
+        <!-- author-profile-area-end -->
 
     </main>
     <!-- main-area-end -->
+
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -711,6 +566,8 @@
     </footer>
     <!-- footer-area-end -->
     <!-- JS here -->
+
+
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -728,6 +585,8 @@
     <script src="js/nav-tool.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+
 </body>
 
 </html>

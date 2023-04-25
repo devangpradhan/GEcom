@@ -2224,6 +2224,7 @@
   #my360 .modal-dialog {
     margin: 5px;
   }
+
 }
 
 .product-grouped {
@@ -3708,8 +3709,8 @@
 
 .product-vdo-view-wrapper {
   position: relative;
-  max-width: 500px;
-  margin: 100px;
+  max-width: 800px;
+  margin: 100px auto;
 }
 
 .vdo {
@@ -3742,6 +3743,32 @@
 .vdo-circle {
   border-radius: 50%;
 }
+
+.modal-content-vdo {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-clip: padding-box;
+  border-radius: .3rem;
+  outline: 0
+}
+.product-vdo-view-wrapper div .close{
+  z-index:10;
+  bottom:-30px;
+  right:15px;
+  color: red;
+  position:relative;
+  padding-top:-5px;
+
+ }
+ 
+
+
+
 
 @media (min-width: 768px) {
   /* Column clear fix */

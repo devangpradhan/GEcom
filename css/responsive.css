@@ -683,8 +683,8 @@
     max-width: 1200px;
 }
 
-  .product-details-info .col-3 {
-    margin-right: 9px;
+  .product-details-info .col-4 {
+    margin-right: 20px;
   }
 
   /* Widget Title */
@@ -701,7 +701,7 @@
     .shop-details-content
     .product-details-info
     .row
-    .col-3
+    .col-4
     .sidebar-product-size
     .shop-color-list
     ul {
@@ -1526,7 +1526,7 @@
     padding-right: 0px;
     transform: translatex(0px) translatey(0px);
     width: 260px !important;
-    max-width: 20%;
+    max-width: 30%;
     height: -2px;
   }
 

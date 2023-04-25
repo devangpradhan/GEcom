@@ -3385,6 +3385,7 @@ header.side-header {
   font-family: "Neue Haas Unica", sans-serif;
   line-height: 1;
   margin-bottom: 8px;
+  position: relative;
 }
 
 .h9-discount-item .content > h3 {
@@ -5828,19 +5829,6 @@ header.side-header {
   margin-right: -15px;
 }
 
-.trending-products-banner {
-  max-width: 30%;
-  flex: 0 0 30%;
-  padding: 5% 1% 5% 1%;
-}
-
-.trending-products-banner > a {
-  display: block;
-}
-
-.trending-products-banner img {
-  max-width: 100%;
-}
 
 .tp-tab-content .trending-product-active {
   margin: 0;
@@ -8128,6 +8116,7 @@ header.side-header {
 .inventory-top-meta > ul li.filter a + a {
   margin-left: 15px;
 }
+
 .inventory-short-meta {
   display: flex;
   align-items: center;

@@ -105,55 +105,6 @@ if ($('.scroll-to-target').length) {
   });
 }
 
-/*=============================================
-	=    		 Cart Active  	         =
-=============================================*/
-$('.qtybutton-box span').click(function () {
-	var $input = $(this).parents('.num-block').find('input.in-num');
-	if ($(this).hasClass('minus')) {
-		var count = parseFloat($input.val()) - 1;
-		count = count < 1 ? 1 : count;
-		if (count < 2) {
-			$(this).addClass('dis');
-		}
-		else {
-			$(this).removeClass('dis');
-		}
-		$input.val(count);
-	}
-	else {
-		var count = parseFloat($input.val()) + 1
-		$input.val(count);
-		if (count > 1) {
-			$(this).parents('.num-block').find(('.minus')).removeClass('dis');
-		}
-	}
-
-	$input.change();
-	return false;
-});
-
-
-/*=============================================
-	=    		 Cart Active  	         =
-=============================================*/
-$(".cart-plus-minus").append('<div class="dec qtybutton">-</div><div class="inc qtybutton">+</div>');
-$(".qtybutton").on("click", function () {
-	var $button = $(this);
-	var oldValue = $button.parent().find("input").val();
-	if ($button.text() == "+") {
-		var newVal = parseFloat(oldValue) + 1;
-	} else {
-		// Don't allow decrementing below zero
-		if (oldValue > 0) {
-			var newVal = parseFloat(oldValue) - 1;
-		} else {
-			newVal = 0;
-		}
-	}
-	$button.parent().find("input").val(newVal);
-});
-
 
 /*=============================================
 	=    	   Toggle Active  	         =
@@ -901,6 +852,53 @@ $('.ProductForm_QuantitySelector span').click(function () {
 });
 
 
+/*=============================================
+	=    		 Wishlist Active  	         =
+=============================================*/
+$(".wish-plus-minus").append('<div class="dec qtybutton">-</div><div class="inc qtybutton">+</div>');
+$(".qtybutton").on("click", function () {
+	var $button = $(this);
+	var oldValue = $button.parent().find("input").val();
+	if ($button.text() == "+") {
+		var newVal = parseFloat(oldValue) + 1;
+	} else {
+		// Don't allow decrementing below zero
+		if (oldValue > 0) {
+			var newVal = parseFloat(oldValue) - 1;
+		} else {
+			newVal = 0;
+		}
+	}
+	$button.parent().find("input").val(newVal);
+});
+
+$('.qtybutton-box span').click(function () {
+	var $input = $(this).parents('.num-block').find('input.in-num');
+	if ($(this).hasClass('minus')) {
+		var count = parseFloat($input.val()) - 1;
+		count = count < 1 ? 1 : count;
+		if (count < 2) {
+			$(this).addClass('dis');
+		}
+		else {
+			$(this).removeClass('dis');
+		}
+		$input.val(count);
+	}
+	else {
+		var count = parseFloat($input.val()) + 1
+		$input.val(count);
+		if (count > 1) {
+			$(this).parents('.num-block').find(('.minus')).removeClass('dis');
+		}
+	}
+
+	$input.change();
+	return false;
+});
+
+
+
 
 /*=============================================
 	=    		Isotope	Active  	      =
@@ -964,17 +962,6 @@ function wowAnimation() {
 
 })(jQuery);
 
-/*=============================================
-	=    		 Image zoom 	         =
-=============================================*/
-// $(document).ready(function(){
-//     $('#zm1').zoom();
-//     $('#zm2').zoom();
-//     $('#zm3').zoom();
-//     $('#zm4').zoom();
-//     $('#zm5').zoom();
-// });
-
 
 /*=============================================
 	=    		 Js product single slider	         =
@@ -1007,44 +994,7 @@ $('.js-product-slider').slick({
 	asNavFor: '.js-click-product'
 });
 
-/*=============================================
-  =          Login Page Animation         =
-=============================================*/
 
-// const loginText = document.querySelector(".title-text .login");
-// const loginForm = document.querySelector("form.login");
-// const loginBtn = document.querySelector("label.login");
-// const signupBtn = document.querySelector("label.signup");
-// const signupLink = document.querySelector("form .signup-link a");
-// signupBtn.onclick = (()=>{
-//   loginForm.style.marginLeft = "-50%";
-//   loginText.style.marginLeft = "-50%";
-// });
-// loginBtn.onclick = (()=>{
-//   loginForm.style.marginLeft = "0%";
-//   loginText.style.marginLeft = "0%";
-// });
-// signupLink.onclick = (()=>{
-//   signupBtn.click();
-//   return false;
-// });
-
-/*=============================================
-=        Toggle Show/Hide Password         =
-=============================================*/
-
-// const togglePassword = document.querySelector('#togglePassword');
-// const password = document.querySelector('#id_password');
-
-// togglePassword.addEventListener('click', function (e) {
-// 	// toggle the type attribute
-// 	const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-// 	password.setAttribute('type', type);
-// 	// toggle the eye slash icon
-// 	this.classList.toggle('fa-eye-slash');
-// });
-
-/*=============================================*/
 /*=============================================
 =        Searchbar     =
 =============================================*/
@@ -1088,3 +1038,55 @@ $(document).ready(function(){
 			$('.searchbar-icon').css('display','block');
 		}
 	}
+
+
+
+/*=============================================
+	=    		 Image zoom 	         =
+=============================================*/
+// $(document).ready(function(){
+//     $('#zm1').zoom();
+//     $('#zm2').zoom();
+//     $('#zm3').zoom();
+//     $('#zm4').zoom();
+//     $('#zm5').zoom();
+// });
+
+/*=============================================
+  =          Login Page Animation         =
+=============================================*/
+
+// const loginText = document.querySelector(".title-text .login");
+// const loginForm = document.querySelector("form.login");
+// const loginBtn = document.querySelector("label.login");
+// const signupBtn = document.querySelector("label.signup");
+// const signupLink = document.querySelector("form .signup-link a");
+// signupBtn.onclick = (()=>{
+//   loginForm.style.marginLeft = "-50%";
+//   loginText.style.marginLeft = "-50%";
+// });
+// loginBtn.onclick = (()=>{
+//   loginForm.style.marginLeft = "0%";
+//   loginText.style.marginLeft = "0%";
+// });
+// signupLink.onclick = (()=>{
+//   signupBtn.click();
+//   return false;
+// });
+
+/*=============================================
+=        Toggle Show/Hide Password         =
+=============================================*/
+
+// const togglePassword = document.querySelector('#togglePassword');
+// const password = document.querySelector('#id_password');
+
+// togglePassword.addEventListener('click', function (e) {
+// 	// toggle the type attribute
+// 	const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+// 	password.setAttribute('type', type);
+// 	// toggle the eye slash icon
+// 	this.classList.toggle('fa-eye-slash');
+// });
+
+/*=============================================*/

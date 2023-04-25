@@ -9075,7 +9075,7 @@ header.side-header {
   color: #9e9e9e;
   font-family: "Josefin Sans", sans-serif;
 }
-.wishlist-area tbody .cart-plus-minus input {
+.wishlist-area tbody .wish-plus-minus input {
   width: 100%;
   padding: 0px 20px;
   text-align: center;
@@ -9090,7 +9090,7 @@ header.side-header {
   height: auto;
   line-height: normal;
 }
-.wishlist-area tbody .cart-plus {
+.wishlist-area tbody .wish-plus {
   width: 80px;
   position: relative;
   margin-right: 0;
@@ -9118,15 +9118,15 @@ header.side-header {
 .my-account-content .form-grp-btn .btn:hover {
   background: #222;
 }
-.cart-plus {
+.wish-plus {
   width: 110px;
   position: relative;
   margin-right: 20px;
 }
-.cart-plus-minus {
+.wish-plus-minus {
   position: relative;
 }
-.cart-plus-minus input {
+.wish-plus-minus input {
   width: 100%;
   padding: 11px 30px;
   text-align: center;

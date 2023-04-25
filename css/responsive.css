@@ -192,6 +192,9 @@
   .h7s-bottom-item .content .btn {
     padding: 15px 20px;
   }
+  .h7s-bottom-item .content .disbtn {
+    padding: 15px 20px;
+  }
   header.side-header {
     width: 240px;
   }
@@ -553,6 +556,9 @@
   .h7s-bottom-item .content .btn {
     padding: 19px 27px;
   }
+  .h7s-bottom-item .content .disbtn {
+    padding: 19px 27px;
+  }
   .h7-discount-img {
     margin-left: 0;
   }
@@ -632,7 +638,7 @@
   }
   .h9-discount-item .content {
     right: 25px;
-    width: 40%;
+    width: 38%;
   }
   .highlight-discount {
     transform: translateY(0px);
@@ -937,6 +943,9 @@
     bottom: 20px;
   }
   .h7s-bottom-item .content .btn {
+    padding: 15px 20px;
+  }
+  .h7s-bottom-item .content .disbtn {
     padding: 15px 20px;
   }
   .h7-discount-img {
@@ -1701,6 +1710,9 @@
   .h7s-bottom-item .content .btn {
     padding: 19px 27px;
   }
+  .h7s-bottom-item .content .disbtn {
+    padding: 19px 27px;
+  }
   .cosmetics-item .thumb img {
     width: 100%;
   }
@@ -1905,6 +1917,9 @@
     font-size: 20px;
   }
   .h7s-bottom-item .content .btn {
+    padding: 19px 27px;
+  }
+  .h7s-bottom-item .content .disbtn {
     padding: 19px 27px;
   }
   .cosmetics-item .thumb img {

@@ -297,7 +297,7 @@
   }
 
   .header-action ul li:first-child {
-    margin-left: -120px;
+    margin-left: 0px;
   }
 
   .header-action > ul li.header-btn {

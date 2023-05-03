@@ -19,7 +19,7 @@ function preloader() {
 
 $(window).on('load', function () {
 	preloader();
-	mainSliderActive();
+	// mainSliderActive();
 	thirdSlider();
 	h9Slider();
 	wowAnimation();
@@ -1036,6 +1036,7 @@ $(document).ready(function(){
 			$('.searchbar-icon').css('display','block');
 		}
 	}
+
 
 
 

@@ -162,8 +162,9 @@
                                                 <li class="header-search">
                                                     <div class="searchbar">
                                                         <input class="search" id="search" type="search"
-                                                            placeholder="Search here" name="search" onkeyup="buttonUp();" required>
-                                                            <ul class="drop"></ul>
+                                                            placeholder="Search here" name="search"
+                                                            onkeyup="buttonUp();" required>
+                                                        <ul class="drop"></ul>
                                                         <span class="searchbar-icon">
                                                             <i class="flaticon-search-interface-symbol"
                                                                 aria-hidden="true"></i>
@@ -173,7 +174,7 @@
 
                                                 <li class="sign-in"><a href="login.html"><i
                                                             class="flaticon-user"></i></a></li>
-                                                <li class="wish-list"><a href="#"><i
+                                                <li class="wish-list"><a href="wishlist.html"><i
                                                             class="flaticon-heart-shape-outline"></i></a></li>
 
                                                 <li class="header-shop-cart"><a href="cart.html"><i
@@ -241,17 +242,29 @@
                                         <img src="img/logo/gm_logo.png" alt="" title="">
                                     </a>
                                 </div>
+                                <div class="user-links">
+                                    <ul class="clearfix">
+                                        <!-- <li><a href="#"><span class="flaticon-search-interface-symbol"></span></a></li> -->
+                                        <li class="mnav-mms"><a type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span class="flaticon-search-interface-symbol"></span></a></li>
+                                        <li><a href="login.html"><span class="flaticon-user"></span></a></li>
+                                        <li><a href="wishlist.html"><span class="flaticon-heart-shape-outline"></span></a></li>
+                                        <li class="mobile-menu-cart"><a href="cart.html"><i class="flaticon-shopping-bag"></i><span>2</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"></div>
+                                    <div class="mnav-mmsbar collapse" id="collapseExample">
+                                        <form class="mnav-mmsfrm">
+                                        <input type="text" class="form-control" id="mnav-mmstext" placeholder="Search">
+                                        <button type="submit" class="mnav-mmsbtn"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
                                 <div class="menu-outer">
                                     <ul class="navigation">
                                         <li class="active">
                                             <a href="index.html">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Shop</a>
-                                            <ul class="submenu">
-                                                <li><a href="shoping.html">Shop Page</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
-                                            </ul>
+                                            <a href="shoping.html">Shop</a>
                                         </li>
                                         <li><a href="https://www.goldmedalindia.com/blog/">Blog</a></li>
                                         <li><a href="about-us.html">About Us</a></li>

@@ -177,8 +177,9 @@
                                                 <li class="wish-list"><a href="wishlist.html"><i
                                                             class="flaticon-heart-shape-outline"></i></a></li>
 
-                                                <li class="header-shop-cart"><a href="cart.html"><i
-                                                            class="flaticon-shopping-bag"></i><span>2</span></a>
+                                                <li class="header-shop-cart">
+                                                    <a href="cart.html">
+                                                        <i class="flaticon-shopping-bag"></i><span>2</span></a>
                                                     <ul class="minicart">
                                                         <li class="d-flex align-items-start">
                                                             <div class="cart-img">
@@ -244,19 +245,102 @@
                                 </div>
                                 <div class="user-links">
                                     <ul class="clearfix">
-                                        <li class="mnav-mms"><a type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span class="flaticon-search-interface-symbol"></span></a></li>
-                                        <li><a href="login.html"><span class="flaticon-user"></span></a></li>
+                                        <li class="mnav-mms">
+                                            <a type="button" data-toggle="collapse" data-target="#coll-s" aria-expanded="false" aria-controls="coll-s">
+                                                <span class="flaticon-search-interface-symbol"></span>
+                                            </a>
+                                        </li>
+                                        <li class="mnav-mms">
+                                            <a type="button" data-toggle="collapse" data-target="#coll-u" aria-expanded="false" aria-controls="coll-u">
+                                                <span class="flaticon-user"></span>
+                                            </a>
+                                        </li>
+                                        <li class="mnav-mms">
+                                            <a class="mobile-menu-cart" type="button" data-toggle="collapse" data-target="#coll-c" aria-expanded="false" aria-controls="coll-c">
+                                                <span class="flaticon-shopping-bag">2</span>
+                                            </a>
+                                        </li>
                                         <li><a href="wishlist.html"><span class="flaticon-heart-shape-outline"></span></a></li>
-                                        <li class="mobile-menu-cart"><a href="cart.html"><i class="flaticon-shopping-bag"></i><span>2</span></a></li>
+                                        <!-- <li class="mobile-menu-cart"><a href="cart.html"><i class="flaticon-shopping-bag"></i><span>2</span></a></li> -->
                                     </ul>
                                 </div>
-                                <div class="clearfix"></div>
-                                    <div class="mnav-mmsbar collapse" id="collapseExample">
+                                    <div class="clearfix"></div>
+
+                                    <div class="mnav-mmsbar collapse" id="coll-s">
                                         <form class="mnav-mmsfrm">
                                         <input type="text" class="form-control" id="mnav-mmstext" placeholder="Search">
                                         <button type="submit" class="mnav-mmsbtn"><i class="fa fa-search"></i></button>
                                         </form>
                                     </div>
+
+                                    <div class="mnav-mmsbar collapse" id="coll-u">
+                                        <ul class="minmenu mnav-mmsfrm" style="">
+                                            <li class="align-items-center">
+                                                <div class="user-content">
+                                                    <h6><a href="profile.html"><i class="far fas fa-user-alt"></i> My Profile</a></h6>
+                                                    <h6><a href="order.html"><i class="far fas fa-list-alt"></i> Order History</a></h6>
+                                                    <h6><a href="wishlist.html"><i class="far fas fa-th-list"></i> Wishlist</a></h6>
+                                                    <h6><a href="profile.html"><i class="far fas fa-address-card"></i> Address</a></h6>
+                                                    <h6><a href="404.html"><i class="fas fa-sign-out-alt"></i> Sign Out</a></h6>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="mnav-mmsbar collapse pt-10" id="coll-c">
+                                        <ul class="minmenu mnav-mmsfrm" style="">
+                                            <li class="align-items-center">
+                                                <ul class="minicart">
+                                                    <li class="d-flex align-items-start">
+                                                        <div class="cart-img">
+                                                            <a href="#"><img style="width:60px;" src="img/product/cart_p01.jpg"
+                                                                    alt=""></a>
+                                                        </div>
+                                                        <div class="cart-content">
+                                                            <h4><a href="#">Led Lamp</a></h4>
+                                                            <div class="cart-price">
+                                                                <span class="new">₹ 290.00</span>
+                                                                <span><del>₹ 350.00</del></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="del-icon">
+                                                            <a href="#"><i class="far fa-trash-alt"></i></a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="d-flex align-items-start">
+                                                        <div class="cart-img">
+                                                            <a href="#"><img style="width:60px;" src="img/product/cart_p02.jpg"
+                                                                    alt=""></a>
+                                                        </div>
+                                                        <div class="cart-content">
+                                                            <h4><a href="#">Door Bell</a></h4>
+                                                            <div class="cart-price">
+                                                                <span class="new">₹ 290.00</span>
+                                                                <span><del>₹ 350.00</del></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="del-icon">
+                                                            <a href="#"><i class="far fa-trash-alt"></i></a>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="total-price">
+                                                            <span class="f-left">Total:</span>
+                                                            <span class="f-right">₹ 580.00</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="checkout-link">
+                                                            <a href="cart.html">Shopping Cart</a>
+                                                            <a class="black-color" href="checkout.html">Checkout</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
                                 <div class="menu-outer">
                                     <ul class="navigation">
                                         <li class="active">

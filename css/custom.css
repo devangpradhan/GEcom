@@ -573,7 +573,7 @@ form .btun input[type="submit"] {
   width: -o-calc(100% - 40px);
   width: calc(100% - 50px);
 }
-.mnav-mmsbar .mnav-mmsbtn {
+.mnav-mmsbar .mnav-mmsbtn  {
   display: inline-block;
   margin-left: 10px;
   display: block;

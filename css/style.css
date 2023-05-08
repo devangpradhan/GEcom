@@ -8066,7 +8066,8 @@ header.side-header {
 
 /* User-menu */
 
-.header-top-user ul.minmenu {
+
+.header-top-user ul.minmenu  {
   background: #fff;
   opacity: 0;
   padding: 5px;
@@ -8114,7 +8115,7 @@ header.side-header {
 }
 
 .minmenu .user-content h6 {
-  color: #312620;
+  color: #ee1a25;
   font-size: 15px;
   background: none;
   font-weight: 300;

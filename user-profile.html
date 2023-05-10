@@ -1,10 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="">
+﻿<!doctype html>
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>GoldEcom Cart</title>
+    <title>Goldmeda Ecommerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
+
 </head>
 
 <body>
@@ -148,20 +149,22 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                         <li class="menu-item"><a href="https://www.goldmedalindia.com/blog/">Blog</a></li>
+                                        <li class="menu-item"><a href="https://www.goldmedalindia.com/blog/">Blog</a>
+                                        </li>
                                         <li class="menu-item"><a href="about-us.html">About Us</a></li>
                                         <li class="menu-item"><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                 </div>
                                 <div class="header-action d-none d-md-block">
                                     <ul>
-                                        <div class="header-top-action">
+                                        <div class="header-top-action ">
                                             <ul>
                                                 <li class="header-search">
                                                     <div class="searchbar">
                                                         <input class="search" id="search" type="search"
-                                                            placeholder="Search here" name="search" onkeyup="buttonUp();" required>
-                                                            <ul class="drop"></ul>
+                                                            placeholder="Search here" name="search"
+                                                            onkeyup="buttonUp();" required>
+                                                        <ul class="drop"></ul>
                                                         <span class="searchbar-icon">
                                                             <i class="flaticon-search-interface-symbol"
                                                                 aria-hidden="true"></i>
@@ -169,16 +172,35 @@
                                                     </div>
                                                 </li>
 
+                                                <li class="header-top-user">
+                                                    <div class="top-user-thumb">
+                                                        <img src="img/images/header_top_user.jpg" alt="">
+                                                    </div>
+                                                    <ul class="minmenu">
+                                                        <li class="d-flex align-items-center">
+                                                            <div class="user-content">
+                                                                <h6><a href="profile.html"><i class="far fa-user"></i>
+                                                                        My Profile</a></h6>
+                                                                <h6><a href="order.html"><i class="far fa-list-alt"></i>
+                                                                        Order History</a></h6>
+                                                                <h6><a href="wishlist.html"><i
+                                                                            class="far fa-list-alt"></i> Wishlist</a>
+                                                                </h6>
+                                                                <h6><a href="profile.html"><i
+                                                                            class="far fa-address-card"></i> Address</a>
+                                                                </h6>
+                                                                <h6><a href="404.html"><i
+                                                                            class="fas fa-sign-out-alt"></i> Sign
+                                                                        Out</a></h6>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
 
-                                                <li class="sign-in">
-                                                    <a href="login.html">
-                                                        <i class="flaticon-user"></i></a></li>
-                                                <li class="wish-list"><a href="#"><i
-                                                            class="flaticon-heart-shape-outline"></i></a></li>
-                                                <li class="header-shop-cart">
-                                                    <a href="cart.html">
-                                                        <i class="flaticon-shopping-bag"></i>
-                                                        <span>2</span></a>
+
+
+                                                <li class="header-shop-cart"><a href="cart.html"><i
+                                                            class="flaticon-shopping-bag"></i><span>2</span></a>
                                                     <ul class="minicart">
                                                         <li class="d-flex align-items-start">
                                                             <div class="cart-img">
@@ -290,146 +312,168 @@
 
     </header>
     <!-- header-area-end -->
+
+
+
     <!-- main-area -->
     <main>
 
         <!-- breadcrumb-area -->
-        <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/bgbnr.jpg">
-            <div class="container">
+        <div class="breadcrumb-area breadcrumb-style-two  breadcrumb-bg" data-background="img/bg/bgbnr.jpg">
+            <div class="container custom-container">
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb-content">
-                            <h2 style="color: black;">Cart</h2>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="product.html">User</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                                </ol>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- breadcrumb-area-end -->
 
-        <!-- cart-area -->
-        <div class="cart-area pt-100 pb-100">
+        <!-- author-profile-area -->
+        <div class="author-profile-area gray-lite-bg pt-120 pb-120">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="cart-wrapper">
-                            <div class="table-responsive">
-                                <table class="table mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th class="product-thumbnail"></th>
-                                            <th class="product-name">Product</th>
-                                            <th class="product-price">Price</th>
-                                            <th class="product-quantity">QUANTITY</th>
-                                            <th class="product-subtotal">SUBTOTAL</th>
-                                            <th class="product-delete"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="shoping.html"><img
-                                                        src="img/product/cart_img01.jpg" alt=""></a></td>
-                                            <td class="product-name">
-                                                <h4><a href="shoping.html">LED Lamp</a></h4>
-                                            </td>
-                                            <td class="product-price">₹ 290.00</td>
-                                            <td class="product-quantity">
-                                                <div class="cart-plus-minus">
-                                                    <form action="#" class="num-block">
-                                                        <input type="text" class="in-num" value="1" readonly="">
-                                                        <div class="qtybutton-box">
-                                                            <span class="plus"><img src="img/icon/plus.png"
-                                                                    alt=""></span>
-                                                            <span class="minus dis"><img src="img/icon/minus.png"
-                                                                    alt=""></span>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </td>
-                                            <td class="product-subtotal"><span>₹ 290.00</span></td>
-                                            <td class="product-delete"><a href="#"><i class="flaticon-trash"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="shoping.html"><img
-                                                        src="img/product/cart_img02.jpg" alt=""></a></td>
-                                            <td class="product-name">
-                                                <h4><a href="shoping.html">Door Bell</a></h4>
-                                            </td>
-                                            <td class="product-price">₹ 290.00</td>
-                                            <td class="product-quantity">
-                                                <div class="cart-plus-minus">
-                                                    <form action="#" class="num-block">
-                                                        <input type="text" class="in-num" value="1" readonly="">
-                                                        <div class="qtybutton-box">
-                                                            <span class="plus"><img src="img/icon/plus.png"
-                                                                    alt=""></span>
-                                                            <span class="minus dis"><img src="img/icon/minus.png"
-                                                                    alt=""></span>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </td>
-                                            <td class="product-subtotal"><span>₹ 290.00</span></td>
-                                            <td class="product-delete"><a href="#"><i class="flaticon-trash"></i></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="shop-cart-bottom mt-20">
-                                <div class="cart-coupon">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter Coupon Code...">
-                                        <button class="btn">Apply Coupon</button>
-                                    </form>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-9 order-2 order-lg-0">
+                        <aside class="author-profile-sidebar">
+                            <div class="author-profile-wrap">
+                                <div class="author-profile-thumb">
+                                    <img src="img/images/avatar.webp" alt="">
                                 </div>
-                                <div class="continue-shopping">
-                                    <a href="#" class="btn">update shopping</a>
+                                <h5 class="name">Alexandra Daddario</h5>
+                                <span class="des">Customer Advisor</span>
+                                <div class="location">
+                                    <p><i class="fas fa-map-marker-alt"></i> Park St, New york, NY 98517</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="cart-total pt-95">
-                            <h3 class="title">CART TOTALS</h3>
-                            <div class="shop-cart-widget">
-                                <form action="#">
+                                <div class="author-profile-list">
                                     <ul>
-                                        <li class="sub-total"><span>SUBTOTAL</span> ₹ 580.00</li>
-                                        <li>
-                                            <span>SHIPPING</span>
-                                            <div class="shop-check-wrap">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck1">
-                                                    <label class="custom-control-label" for="customCheck1">FLAT RATE: ₹ 50</label>
-                                                </div>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck2">
-                                                    <label class="custom-control-label" for="customCheck2">FREE
-                                                        SHIPPING</label>
-                                                </div>
-                                                <a href="#" class="calculate">Calculate shipping</a>
-                                            </div>
-                                        </li>
-                                        <li class="cart-total-amount"><span>TOTAL</span> <span class="amount">₹ 595.00</span></li>
+                                        <li><i class="far fa-address-book"></i>Project Views <span>78,988</span></li>
+                                        <li><i class="far fa-hand-point-right"></i>Appreciations <span>8,954</span></li>
+                                        <li><i class="far fa-bell"></i>Followers <span>1,046</span></li>
                                     </ul>
-                                    <a href="checkout.html" class="btn">PROCEED TO CHECKOUT</a>
-                                </form>
+                                </div>
+                                <div class="author-profile-btn">
+                                    <a href="#" class="btn black">Follow</a>
+                                    <a href="#" class="btn">Message</a>
+                                </div>
+                                <div class="author-contact-info">
+                                    <p>A car dealership, or vehicle local distrbut is a business sells.</p>
+                                    <ul>
+                                        <li><i class="flaticon-phone-call"></i><a href="#">(123)456-7890</a></li>
+                                        <li><i class="far fa-envelope"></i><a href="#"><span class="__cf_email__"
+                                                    data-cfemail="06476a637e6768627467466f6860692865696b">[email&#160;protected]</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="author-profile-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-9">
+                        <aside class="author-profile-sidebar">
+                            <div class="author-profile-wrap">
+                                <div class="author-profile-thumb">
+                                    <img src="img/images/avatar.webp" alt="">
+                                </div>
+                                <h5 class="name">Alexandra Daddario</h5>
+                                <span class="des">Customer Advisor</span>
+                                <div class="location">
+                                    <p><i class="fas fa-map-marker-alt"></i> Park St, New york, NY 98517</p>
+                                </div>
+                                <div class="author-profile-list">
+
+                                </div>
+                                <div class="author-profile-btn">
+                                    <a href="#" class="btn red">Follow</a>
+                                    <a href="#" class="btn">Message</a>
+                                </div>
+                                <div class="author-contact-info">
+                                    <p>A car dealership, or vehicle local distrbut is a business sells.</p>
+                                    <ul>
+                                        <li><i class="flaticon-phone-call"></i><a href="#">(123)456-7890</a></li>
+                                        <li><i class="far fa-envelope"></i><a href="#"><span class="__cf_email__"
+                                                    data-cfemail="06476a637e6768627467466f6860692865696b">[email&#160;protected]</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="author-profile-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- author-profile-area-end -->
+
+        <!-- footer-brand-area -->
+        <div class="footer-brand-area white-bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="row footer-brand-active">
+                            <div class="col">
+                                <div class="footer-brand-item">
+                                    <a href="#"><img src="img/brand/footer_brand01.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="footer-brand-item">
+                                    <a href="#"><img src="img/brand/footer_brand02.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="footer-brand-item">
+                                    <a href="#"><img src="img/brand/footer_brand03.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="footer-brand-item">
+                                    <a href="#"><img src="img/brand/footer_brand04.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="footer-brand-item">
+                                    <a href="#"><img src="img/brand/footer_brand05.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="footer-brand-item">
+                                    <a href="#"><img src="img/brand/footer_brand03.png" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- cart-area-end -->
+        <!-- footer-brand-area-end -->
 
     </main>
     <!-- main-area-end -->
 
-
-    </main>
-    <!-- main-area-end -->
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -542,6 +586,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/search.js"></script>
+
 
 </body>
 

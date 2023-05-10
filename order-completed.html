@@ -1,10 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="">
+﻿<!doctype html>
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>GoldEcom Cart</title>
+    <title>Goldmeda Ecommerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
+
 </head>
 
 <body>
@@ -148,20 +149,22 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                         <li class="menu-item"><a href="https://www.goldmedalindia.com/blog/">Blog</a></li>
+                                        <li class="menu-item"><a href="https://www.goldmedalindia.com/blog/">Blog</a>
+                                        </li>
                                         <li class="menu-item"><a href="about-us.html">About Us</a></li>
                                         <li class="menu-item"><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                 </div>
                                 <div class="header-action d-none d-md-block">
                                     <ul>
-                                        <div class="header-top-action">
+                                        <div class="header-top-action ">
                                             <ul>
                                                 <li class="header-search">
                                                     <div class="searchbar">
                                                         <input class="search" id="search" type="search"
-                                                            placeholder="Search here" name="search" onkeyup="buttonUp();" required>
-                                                            <ul class="drop"></ul>
+                                                            placeholder="Search here" name="search"
+                                                            onkeyup="buttonUp();" required>
+                                                        <ul class="drop"></ul>
                                                         <span class="searchbar-icon">
                                                             <i class="flaticon-search-interface-symbol"
                                                                 aria-hidden="true"></i>
@@ -169,16 +172,36 @@
                                                     </div>
                                                 </li>
 
+                                                <li class="header-top-user">
+                                                    <div class="top-user-thumb">
+                                                        <img src="img/images/header_top_user.jpg" alt="">
+                                                    </div>
+                                                    <ul class="minmenu">
+                                                        <li class="d-flex align-items-center">
+                                                            <div class="user-content">
+                                                                <h6><a href="profile.html"><i class="far fa-user"></i>
+                                                                        My Profile</a></h6>
+                                                                <h6><a href="order.html"><i class="far fa-list-alt"></i>
+                                                                        Order History</a></h6>
+                                                                <h6><a href="wishlist.html"><i
+                                                                            class="far fa-list-alt"></i> Wishlist</a>
+                                                                </h6>
+                                                                <h6><a href="profile.html"><i
+                                                                            class="far fa-address-card"></i> Address</a>
+                                                                </h6>
+                                                                <h6><a href="404.html"><i
+                                                                            class="fas fa-sign-out-alt"></i> Sign
+                                                                        Out</a></h6>
 
-                                                <li class="sign-in">
-                                                    <a href="login.html">
-                                                        <i class="flaticon-user"></i></a></li>
-                                                <li class="wish-list"><a href="#"><i
-                                                            class="flaticon-heart-shape-outline"></i></a></li>
-                                                <li class="header-shop-cart">
-                                                    <a href="cart.html">
-                                                        <i class="flaticon-shopping-bag"></i>
-                                                        <span>2</span></a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+
+
+                                                <li class="header-shop-cart"><a href="cart.html"><i
+                                                            class="flaticon-shopping-bag"></i><span>2</span></a>
                                                     <ul class="minicart">
                                                         <li class="d-flex align-items-start">
                                                             <div class="cart-img">
@@ -290,16 +313,19 @@
 
     </header>
     <!-- header-area-end -->
+
+
     <!-- main-area -->
     <main>
 
         <!-- breadcrumb-area -->
-        <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/bgbnr.jpg">
+        <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/breadcrumb_bg.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="breadcrumb-content">
-                            <h2 style="color: black;">Cart</h2>
+                        <div class="breadcrumb-content text-center">
+                            <h2>Order Completed</h2>
+
                         </div>
                     </div>
                 </div>
@@ -307,129 +333,36 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <!-- cart-area -->
-        <div class="cart-area pt-100 pb-100">
+        <!-- order-complete-area -->
+        <section class="order-complete-area pattern-bg pt-100 pb-100" data-background="img/bg/pattern_bg.jpg">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="cart-wrapper">
-                            <div class="table-responsive">
-                                <table class="table mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th class="product-thumbnail"></th>
-                                            <th class="product-name">Product</th>
-                                            <th class="product-price">Price</th>
-                                            <th class="product-quantity">QUANTITY</th>
-                                            <th class="product-subtotal">SUBTOTAL</th>
-                                            <th class="product-delete"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="shoping.html"><img
-                                                        src="img/product/cart_img01.jpg" alt=""></a></td>
-                                            <td class="product-name">
-                                                <h4><a href="shoping.html">LED Lamp</a></h4>
-                                            </td>
-                                            <td class="product-price">₹ 290.00</td>
-                                            <td class="product-quantity">
-                                                <div class="cart-plus-minus">
-                                                    <form action="#" class="num-block">
-                                                        <input type="text" class="in-num" value="1" readonly="">
-                                                        <div class="qtybutton-box">
-                                                            <span class="plus"><img src="img/icon/plus.png"
-                                                                    alt=""></span>
-                                                            <span class="minus dis"><img src="img/icon/minus.png"
-                                                                    alt=""></span>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </td>
-                                            <td class="product-subtotal"><span>₹ 290.00</span></td>
-                                            <td class="product-delete"><a href="#"><i class="flaticon-trash"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="product-thumbnail"><a href="shoping.html"><img
-                                                        src="img/product/cart_img02.jpg" alt=""></a></td>
-                                            <td class="product-name">
-                                                <h4><a href="shoping.html">Door Bell</a></h4>
-                                            </td>
-                                            <td class="product-price">₹ 290.00</td>
-                                            <td class="product-quantity">
-                                                <div class="cart-plus-minus">
-                                                    <form action="#" class="num-block">
-                                                        <input type="text" class="in-num" value="1" readonly="">
-                                                        <div class="qtybutton-box">
-                                                            <span class="plus"><img src="img/icon/plus.png"
-                                                                    alt=""></span>
-                                                            <span class="minus dis"><img src="img/icon/minus.png"
-                                                                    alt=""></span>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </td>
-                                            <td class="product-subtotal"><span>₹ 290.00</span></td>
-                                            <td class="product-delete"><a href="#"><i class="flaticon-trash"></i></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="shop-cart-bottom mt-20">
-                                <div class="cart-coupon">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter Coupon Code...">
-                                        <button class="btn">Apply Coupon</button>
-                                    </form>
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="order-complete-bg" data-background="img/bg/order_comp_bg.png">
+                            <div class="order-complete-content">
+                                <h3><span>Thank Your For Purchaseing Doorbell</h3>
+                                <h4><span>your</span> Order Is Completed!</h4>
+                                <div class="check mb-25">
+                                    <img src="img/icon/check.png" alt="">
                                 </div>
-                                <div class="continue-shopping">
-                                    <a href="#" class="btn">update shopping</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cart-total pt-95">
-                            <h3 class="title">CART TOTALS</h3>
-                            <div class="shop-cart-widget">
-                                <form action="#">
-                                    <ul>
-                                        <li class="sub-total"><span>SUBTOTAL</span> ₹ 580.00</li>
-                                        <li>
-                                            <span>SHIPPING</span>
-                                            <div class="shop-check-wrap">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck1">
-                                                    <label class="custom-control-label" for="customCheck1">FLAT RATE: ₹ 50</label>
-                                                </div>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input"
-                                                        id="customCheck2">
-                                                    <label class="custom-control-label" for="customCheck2">FREE
-                                                        SHIPPING</label>
-                                                </div>
-                                                <a href="#" class="calculate">Calculate shipping</a>
-                                            </div>
-                                        </li>
-                                        <li class="cart-total-amount"><span>TOTAL</span> <span class="amount">₹ 595.00</span></li>
-                                    </ul>
-                                    <a href="checkout.html" class="btn">PROCEED TO CHECKOUT</a>
-                                </form>
+                                <p>Thank you for your order! Your order is being processed and will be completed within
+                                    6-12 Hours. You will receive an
+                                    email confirmation when your order is completed.</p>
+                                <a href="shop-left-sidebar.html" class="btn">CONTINUE SHOPPING</a>
+                                <p class="get-ans">Get answers to all your <a href="#">Questions</a> you might have.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- cart-area-end -->
+        </section>
+        <!-- order-complete-area-end -->
+
+
 
     </main>
     <!-- main-area-end -->
 
-
-    </main>
-    <!-- main-area-end -->
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -542,6 +475,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/search.js"></script>
+
 
 </body>
 

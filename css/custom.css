@@ -19,6 +19,7 @@
   position: absolute;
   top: 0;
   left: 0;
+
 }
 .pimg-hover img:nth-child(1):hover {
   opacity: 0;
@@ -654,3 +655,4 @@ form .btun input[type="submit"] {
 .spd-details-content {
   padding-left: 75px;
 }
+

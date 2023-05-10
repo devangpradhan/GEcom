@@ -25,6 +25,7 @@
 22. Preloader
 23. My account */
 /* Typography */
+
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
 
 @font-face {
@@ -1652,7 +1653,7 @@ header.side-header {
   top: 50%;
   transform: translate(-50%, -50%);
   height: 1px;
-  background: #ff5400;
+  background: #ff0000;
   width: 0;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1762,7 +1763,7 @@ header.side-header {
 .cosmetics-item .content .action ul li a:hover {
   background: #;
   color: #fff;
-  border-color: #ff5400;
+  border-color: #ff0000;
 }
 
 .header-style-five .navbar-wrap > ul > li > a {
@@ -2346,7 +2347,7 @@ header.side-header {
   bottom: 0;
   width: 20px;
   height: 3px;
-  background: #ff5400;
+  background: #ff0000;
 }
 
 .sidebar-off-canvas .contact-info ul li {
@@ -2509,9 +2510,21 @@ header.side-header {
 }
 
 .breadcrumb-style-two {
-  padding: 40px 0;
+  background-image: url(../img/bg/breadcrumb_bg02.jpg);
   background-position: center;
   background-size: cover;
+  padding: 26px 0;
+}
+
+.breadcrumb-style-two .breadcrumb-content .breadcrumb {
+  justify-content: flex-start;
+}
+.breadcrumb-style-two .breadcrumb-content .breadcrumb li a {
+  color: #2b2b2b;
+}
+.breadcrumb-style-two .breadcrumb-content .breadcrumb li + li::before {
+  color: #666666;
+  opacity: .7;
 }
 
 /* 5. Slider */
@@ -2686,7 +2699,7 @@ header.side-header {
   height: 30px;
   text-align: center;
   line-height: 30px;
-  background: #ff5400;
+  background: #ff0000;
   color: #fff;
   font-size: 13px;
   z-index: 2;
@@ -2836,7 +2849,7 @@ header.side-header {
   bottom: 0;
   height: 2px;
   width: 100%;
-  background: #ff5400;
+  background: #ff0000;
 }
 
 .h7-slider-content .title {
@@ -3124,8 +3137,8 @@ header.side-header {
 }
 
 .split-slider-active .slick-dots li.slick-active button {
-  background: #ff5400;
-  border-color: #ff5400;
+  background: #ff0000;
+  border-color: #ff0000;
 }
 
 /* 6. Category-banner */
@@ -3633,8 +3646,8 @@ header.side-header {
   .custom-control-input:checked
   ~ .custom-control-label::before {
   color: #fff;
-  border-color: #ff6000;
-  background-color: #ff6000;
+  border-color: #ec2026;
+  background-color: #ec2026;
 }
 
 .different-address
@@ -3707,20 +3720,21 @@ header.side-header {
   border: 2px solid #bcbcbc;
 }
 
-.shop-cart-widget .custom-control-label::after {
-  top: 2px;
+.shop-cart-widget .custom-control-label , ::after {
+  top: 5px;
 }
 
 .shop-cart-widget
   .custom-control-input:checked
   ~ .custom-control-label::before {
   color: #fff;
-  border-color: #ff6000;
+  border-color: #ec2026;
   background-color: transparent;
+  background: #ec2026;
 }
 
 .shop-cart-widget .custom-control:last-child {
-  margin-bottom: 0;
+  margin-bottom: 5;
 }
 
 .shop-cart-widget
@@ -4119,7 +4133,7 @@ header.side-header {
 }
 
 .shop-color-list ul li:nth-child(2) {
-  background: #ff5400;
+  background: #ff0000;
 }
 
 .shop-color-list ul li:nth-child(3) {
@@ -4347,7 +4361,7 @@ header.side-header {
   font-size: 12px;
   letter-spacing: -1px;
   line-height: 1;
-  color: #ff5400;
+  color: #ff0000;
   margin-bottom: 10px;
 }
 
@@ -4854,7 +4868,7 @@ header.side-header {
 }
 
 .ex-services-item.orange {
-  background: #ff5400;
+  background: #ff0000;
 }
 
 .ex-services-item.orange .content > i,
@@ -4939,7 +4953,7 @@ header.side-header {
   position: absolute;
   left: 12px;
   top: 20px;
-  background: #ff5400;
+  background: #ff0000;
   color: #fff;
   font-weight: 500;
   padding: 4px 10px;
@@ -5041,7 +5055,7 @@ header.side-header {
 }
 
 .features-product-bottom .color-option > span.orange {
-  background: #ff5400;
+  background: #ff0000;
 }
 
 .features-product-bottom .limited-time {
@@ -5208,7 +5222,7 @@ header.side-header {
 }
 
 .progress-list .progress-bar {
-  background-color: #ff5400;
+  background-color: #ff0000;
   border-radius: 8px;
 }
 
@@ -5239,7 +5253,7 @@ header.side-header {
   top: 0;
   right: 0;
   color: #fff;
-  background-color: #ff5400;
+  background-color: #ff0000;
   padding: 6px 10px;
   line-height: 1;
   border-radius: 5px 5px 13px 5px;
@@ -5377,7 +5391,7 @@ header.side-header {
 .cosmetics-item .content .stock-info {
   font-size: 12px;
   font-weight: 500;
-  color: #ff5400;
+  color: #ff0000;
   font-family: "Neue Haas Unica", sans-serif;
   position: absolute;
   right: 30px;
@@ -5391,7 +5405,7 @@ header.side-header {
   color: #b5b4b4;
   letter-spacing: -0.5px;
   margin-bottom: 5px;
-  color: #ff5400;
+  color: #ff0000;
 }
 
 .cosmetics-item .content .title {
@@ -5493,7 +5507,7 @@ header.side-header {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #ff5400;
+  background: #ff0000;
   opacity: 0.83;
   z-index: -1;
 }
@@ -5607,7 +5621,7 @@ header.side-header {
   transform: translateY(-50%);
   width: 5px;
   height: 25px;
-  background: #ff5400;
+  background: #ff0000;
 }
 
 .shoes-banner-content h2 {
@@ -5646,8 +5660,8 @@ header.side-header {
 }
 
 .shoes-banner-active .slick-dots li.slick-active button {
-  border-color: #ff5400;
-  background: #ff5400;
+  border-color: #ff0000;
+  background: #ff0000;
 }
 
 .discount-bg-three {
@@ -5697,7 +5711,7 @@ header.side-header {
 .discount-bg-three .voucher-code span {
   display: block;
   font-size: 16px;
-  color: #ff5400;
+  color: #ff0000;
   font-weight: 600;
   font-family: "Neue Haas Unica", sans-serif;
 }
@@ -5797,7 +5811,7 @@ header.side-header {
 }
 
 .h9-arrival-product .new-arrival-item .thumb .discount-tag {
-  background: #ff5400;
+  background: #ff0000;
 }
 
 /* 13. Trending */
@@ -5973,6 +5987,7 @@ header.side-header {
 
 .new-arrival-item {
   position: relative;
+  /* border: 1px solid */
 }
 
 .new-arrival-item .thumb img {
@@ -6059,7 +6074,7 @@ header.side-header {
   transform: translateY(-50%);
   width: 6px;
   height: 6px;
-  background: #ff5400;
+  background: #ff0000;
   border-radius: 50%;
 }
 
@@ -6108,7 +6123,7 @@ header.side-header {
 }
 
 .newsletter-style-two .newsletter-title .title {
-  color: #ff5400;
+  color: #ff0000;
 }
 
 .newsletter-style-two .newsletter-form input,
@@ -6228,7 +6243,7 @@ header.side-header {
   transform: translateY(-50%);
   left: 30px;
   font-size: 16px;
-  color: #ff5400;
+  color: #ff0000;
 }
 
 .reservation-form-top .form-grp::before {
@@ -6245,7 +6260,7 @@ header.side-header {
 
 .reservation-action form .btn {
   padding: 19px 35px;
-  background: #ff5400;
+  background: #ff0000;
   color: #fff;
 }
 
@@ -6396,7 +6411,7 @@ header.side-header {
 }
 
 .blog-post-style2 .blog-post-content > a span {
-  color: #ff5400;
+  color: #ff0000;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   margin-left: 4px;
@@ -6438,7 +6453,7 @@ header.side-header {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
-  color: #ff5400;
+  color: #ff0000;
   margin-bottom: 10px;
   line-height: 1;
 }
@@ -6552,7 +6567,7 @@ header.side-header {
 
 .sidebar-about .content a {
   display: inline-block;
-  color: #ff5400;
+  color: #ff0000;
   font-family: "Neue Haas Unica", sans-serif;
   font-weight: 600;
 }
@@ -6655,7 +6670,7 @@ header.side-header {
 
 .blog-sidebar-tag ul li a:hover {
   color: #fff;
-  background: #ff5400;
+  background: #ff0000;
 }
 
 .breadcrumb-content .title {
@@ -6832,11 +6847,11 @@ header.side-header {
   background: #fff;
   border-radius: 50%;
   font-size: 12px;
-  color: #ff5400;
+  color: #ff0000;
 }
 
 .post-avatar-social ul li a:hover {
-  background: #ff5400;
+  background: #ff0000;
   color: #fff;
 }
 
@@ -7083,14 +7098,14 @@ header.side-header {
 
 .pagination-wrap ul li a:hover,
 .pagination-wrap ul li.active a {
-  background: #ff5400;
+  background: #ff0000;
   color: #fff;
 }
 
 .pagination-wrap ul li.prev a:hover,
 .pagination-wrap ul li.next a:hover {
   background: transparent;
-  color: #ff5400;
+  color: #ff0000;
 }
 
 /* 19. Instagram */
@@ -7889,16 +7904,16 @@ header.side-header {
 .my-account-content .form-grp-btn .btn.signup:hover {
   background: #ff0a26;
 }
+
 /* 15. Author-profile */
+
 .author-profile-wrap {
   background: #fff;
   border: 1px solid #ebebeb;
   border-radius: 6px;
   text-align: center;
-  margin-top: -100px;
   margin-right: 30px;
   padding: 40px 35px 0;
-  overflow: hidden;
   box-shadow: 0px 3px 9px 0px rgba(120, 120, 120, 0.09);
 }
 .author-profile-thumb img {
@@ -7921,10 +7936,94 @@ header.side-header {
   height: 0;
   border-style: solid;
   border-width: 15px 13px 0 13px;
-  border-color: #ff0000 transparent transparent transparent;
+  border-color: #ff5400 transparent transparent transparent;
   margin: 0 auto;
   z-index: -11;
 }
+
+.profile-pic {
+  overflow: hidden;
+
+  justify-content: center;
+  display: flex;
+  position: relative;
+  color: transparent;
+  transition: all 0.3s ease;
+}
+.profile-pic input {
+  display: none;
+}
+.profile-pic img {
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+  width: 165px;
+  height: 165px;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+  border-radius: 100px;
+  z-index: 0;
+}
+.profile-pic .-label {
+  position:absolute;
+  cursor: pointer;
+  height: 165px;
+  width: 165px;
+
+}
+.profile-pic:hover .-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10000;
+  color: #fafafa;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 100px;
+  margin-bottom: 0;
+}
+.profile-pic span {
+  display: inline-flex;
+  padding-top: 1.5em;
+}
+
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ec2026
+}
+
+.labels {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.field {
+  font-size: 15px;
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  position: relative;
+  border-bottom: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .author-profile-wrap .name {
   font-size: 20px;
   font-weight: 600;
@@ -7934,6 +8033,7 @@ header.side-header {
   display: block;
   font-weight: 500;
 }
+
 .author-profile-wrap .location {
   margin-top: 40px;
   padding-bottom: 18px;
@@ -7988,6 +8088,7 @@ header.side-header {
   padding-bottom: 15px;
   margin-bottom: 35px;
 }
+
 .author-contact-info {
   text-align: left;
   margin-bottom: 15px;
@@ -8241,17 +8342,17 @@ header.side-header {
   display: block;
   text-align: center;
   line-height: 35px;
-  background: #ff5400;
+  background: #ff0000;
   border-radius: 50%;
   color: #fff;
   font-size: 14px;
 }
 .inv-thumb-meta li a:hover {
   background: #fff;
-  color: #ff5400;
+  color: #ff0000;
 }
 .tooltip .tooltip-inner {
-  background-color: #ff5400 !important;
+  background-color: #ff0000 !important;
   opacity: 1;
   font-size: 12px;
   font-weight: 500;
@@ -8263,10 +8364,10 @@ header.side-header {
   line-height: 1;
 }
 .tooltip .arrow:before {
-  border-bottom-color: #ff5400;
+  border-bottom-color: #ff0000;
 }
 .tooltip .arrow:before {
-  border-top-color: #ff5400;
+  border-top-color: #ff0000;
 }
 .bs-tooltip-top {
   padding-bottom: 15px;
@@ -8386,7 +8487,7 @@ header.side-header {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  background: #d64f0f;
+  background: #ec2026;
   border-radius: 4px;
   color: #fff;
   font-size: 12px;
@@ -8444,7 +8545,7 @@ header.side-header {
   top: 50%;
   transform: translateY(-50%);
   border: none;
-  background: #ff5400;
+  background: #ff0000;
   color: #fff;
   width: 47px;
   height: 50px;
@@ -8576,7 +8677,7 @@ header.side-header {
 }
 .sidebar-loan-calculator > a:hover {
   color: #fff;
-  border-color: #ff5400;
+  border-color: #ff0000;
 }
 .advisor-wrap {
   display: flex;
@@ -8649,7 +8750,7 @@ header.side-header {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #ff5400;
+  background: #ff0000;
   transition: 0.3s linear;
   opacity: 0;
 }
@@ -8977,7 +9078,12 @@ header.side-header {
 .order-complete-content h3 {
   font-size: 30px;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+}
+.order-complete-content h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .order-complete-content p {
   margin-bottom: 35px;
@@ -9194,3 +9300,7 @@ header.side-header {
   right: 0px;
   left: auto;
 }
+
+
+
+

@@ -1038,7 +1038,15 @@ $(document).ready(function(){
 	}
 
 
+/*=============================================
+	=    		 Change Image 	         =
+=============================================*/
 
+
+	var loadFile = function (event) {
+		var image = document.getElementById("output");
+		image.src = URL.createObjectURL(event.target.files[0]);
+	  };
 
 /*=============================================
 	=    		 Image zoom 	         =

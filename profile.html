@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
-
+    <script src="https://kit.fontawesome.com/4731435ede.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -316,6 +316,9 @@
 
     <!-- main-area -->
     <main>
+
+
+
         <!-- breadcrumb-area -->
         <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/bgbnr.jpg">
             <div class="container">
@@ -330,86 +333,465 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <!-- author-profile-area -->
-        <div class="author-profile-area gray-lite-bg pt-5 pb-120">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-7 col-md-9 order-2 order-lg-0">
-                        <div class="author-profile-sidebar">
-                            <div class="author-profile-wrap">
-
-                                <div class="author-profile-thumb">
-                                    <div class="profile-pic">
-                                        <label class="-label" for="file">
-                                            <span class="fa fa-camera"></span>
-                                            <span>&nbsp Change Image</span>
-                                        </label>
-                                        <input id="file" type="file" onchange="loadFile(event)" />
-                                        <img src="img/images/avatar.webp" id="output" />
+        <!--New profile start-->
+        <div class="divfix">
+            <div class="profile pt-50 pb-100">
+                <div class="container p-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="profile-nav col-md-3">
+                                <div class="panel" role="tablist">
+                                    <div class="user-heading round">
+                                        <div class="profile-pic">
+                                            <label class="-label" for="file">
+                                                <span class="fa fa-camera"></span>
+                                                <span>&nbsp Change Image</span>
+                                            </label>
+                                            <input id="file" type="file" onchange="loadFile(event)" />
+                                            <img src="img/images/avatar.webp" id="output" />
+                                        </div>
+                                        <h1>Johnny Deep</h1>
+                                        <p>deydey@theEmail.com</p>
                                     </div>
-                                </div>
+
+                                    <ul class="nav nav-pills nav-stacked list-group list-group-flush">
+                                        <li><a class="list-group-item" aria-readonly="true"><i class="fa fa-user"></i>
+                                                ACCOUNT SETTINGS</a></li>
+                                        <li>
+                                            <a class="list-group-item list-group-item-action pl-5 active" id="Address"
+                                                href="#address" data-toggle="list" role="tab">Profile Information</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="list-group-item list-group-item-action pl-5"
+                                                href="#ManageAddresses" data-toggle="list" role="tab">Manage
+                                                Addresses</a>
+                                        </li>
 
 
-                                <h3 class="name">John Doe</h3>
 
-                                <span class="des">Customer</span>
-                                
-                                <!-- Editable Form -->
-                                <div class="col-md-12 pt-1">
-                                    <div class="row mt-2">
-                                        <div class="col-md-6"><label class="labels"></label><input type="text"
-                                                class="form-control" placeholder="Name" value=""></div>
-                                        <div class="col-md-6"><label class="labels"></label><input type="text"
-                                                class="form-control" value="" placeholder="Surname"></div>
-                                    </div>
-                                    <div class="row mt-2">
-                                        <div class="col-md-6"><label class="labels"></label><input type="text"
-                                                class="form-control" placeholder="Mobile Number" value=""></div>
-                                        <div class="col-md-6"><label class="labels"></label><input type="text"
-                                                class="form-control" value="" placeholder="Email"></div>
-                                    </div>
-                                    <div class="row mt-2">
-                                        <div class="col-md-6"><label class="labels"></label><input type="text"
-                                                class="form-control" placeholder="Address Line 1" value=""></div>
-                                        <div class="col-md-6"><label class="labels"></label><input type="text"
-                                                class="form-control" value="" placeholder="Address Line 2"></div>
-                                    </div>
-                                    <div class="row mt-2">
-                                        <div class="col-md-4"><label class="labels"></label><input type="text"
-                                                class="form-control" value="" placeholder="State"></div>
-                                        <div class="col-md-4"><label class="labels"></label><input type="text"
-                                                class="form-control" placeholder="City" value=""></div>
-                                        <div class="col-md-4"><label class="labels"></label><input type="text"
-                                                class="form-control" value="" placeholder="Pincode"></div>
-                                    </div>
-                                </div>
-                                
-                                <div class="author-profile-btn mt-5">
-                                    <a href="" class="btn red">Save Profile</a>
-                                </div>
+                                        <li>
+                                            <a class="list-group-item list-group-item-action pl-5" href="#Managemango"
+                                                data-toggle="list" role="tab">Change Password</a>
+                                        </li>
 
-                                <div class="author-contact-info">
-                                    <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i> Malad, Mumbai, India</a></p>
-                                        <li><i class="flaticon-phone-call"></i><a href="#">(123)456-7890</a></li>
-                                        <li><i class="far fa-envelope"></i><a href="#"><span class="__cf_email__"
-                                                    data-cfemail="06476a637e6768627467466f6860692865696b">[email&#160;protected]</span></a>
+                                        <li><a class="list-group-item list-group-item-action" href="#notification"
+                                                data-toggle="list" role="tab"> <i class="fa fa-bell"></i>notification
+                                            </a>
+                                        </li>
+
+                                        <li><a class="list-group-item list-group-item-action" data-toggle="list"
+                                                role="tab"> <i class="fa fa-sign-out"></i>Logout
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
+                            <div class="col-md-7 col-xl-9">
+                                <div class="tab-content">
+                                    <div class="tab-pane" readonly>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="card-title mb-0">ACCOUNT SETTINGS</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <form>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputFirstName">First name</label>
+                                                            <input type="text" class="form-control" id="inputFirstName"
+                                                                placeholder="First name">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputFirstName">Middle name</label>
+                                                            <input type="text" class="form-control" id="inputFirstName"
+                                                                placeholder="Middle name">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputLastName">Last name</label>
+                                                            <input type="text" class="form-control" id="inputLastName"
+                                                                placeholder="Last name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputEmail4">Email</label>
+                                                            <input type="email" class="form-control" id="inputEmail4"
+                                                                placeholder="Email">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputEmail4">Mobile Number</label>
+                                                            <input type="text" class="form-control" id="inputnumber"
+                                                                placeholder="1234567890">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputEmail4">Alternative Mobile Number
+                                                            </label>
+                                                            <input type="text" class="form-control" id="inputnumber"
+                                                                placeholder="1234567890">
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btns btn-primary">Save changes</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="address" role="tabpanel">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="card-title mb-0">Profile Information</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="form-row">
+                                                    <div class="form-group col-sm-3">
+                                                        <h6>Personal Information</h6>
+                                                    </div>
+                                                    <div class="form-group col-sm-3">
+                                                        <label class="linkBtn">Edit</label>/<label
+                                                            class="linkBtn">Cancel</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-sm-">
+                                                        <input type="text" class="form-control" id="inputnumber"
+                                                            placeholder="First Name">
+                                                    </div>
+                                                    <div class="form-group col-sm-3">
+                                                        <input type="text" class="form-control" id="inputnumber"
+                                                            placeholder="Last Name">
+                                                    </div>
+                                                    <div class="form-group col-sm-3">
+                                                        <button type="submit" class="btns btn-primary">Save</button>
+                                                    </div>
+                                                    <div class="form-row col-md-12 pb-2">
+                                                        <div class="col-md-12">
+                                                            <label for="inputAddress2">
+                                                                <h6>Your Gender </h6>
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-row pl-2">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                                                <label class="form-check-label pr-3"
+                                                                    for="flexRadioDefault1">
+                                                                    Male
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="flexRadioDefault" id="flexRadioDefault2">
+                                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                                    Female
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row mt-10">
+                                                    <div class="form-group col-sm-3">
+                                                        <h6>Email Address</h6>
+                                                    </div>
+                                                    <div class="form-group col-sm-3">
+                                                        <label class="linkBtn">Edit</label>/<label
+                                                            class="linkBtn">Cancel</label>
+                                                    </div>
+                                                </div>
 
-
+                                                <div class="form-row">
+                                                    <div class="form-group col-sm-5">
+                                                        <input type="text" class="form-control" id="inputnumber"
+                                                            placeholder="">
+                                                    </div>
+                                                    <div class="form-group col-sm-3">
+                                                        <button type="submit" class="btns btn-primary">Save</button>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row mt-10">
+                                                    <div class="form-group col-sm-3">
+                                                        <h6>Mobile Number</h6>
+                                                    </div>
+                                                    <div class="form-group col-sm-3">
+                                                        <label class="linkBtn">Edit</label>/<label
+                                                            class="linkBtn">Cancel</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-sm-5">
+                                                        <input type="text" class="form-control" id="inputnumber"
+                                                            placeholder="">
+                                                    </div>
+                                                    <div class="form-group col-sm-3">
+                                                        <button type="submit" class="btns btn-primary">Save</button>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row mt-10">
+                                                    <div class="form-group col-sm-3">
+                                                        <h6>2-step verification</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-sm-3">
+                                                        <button type="submit" class="btns btn-primary">Turn on</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="form-group col-sm-3">
+                                                    <label class="linkBtn">Deactivate Account</label><label
+                                                        class="linkBtn"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="ManageAddresses" role="tabpanel">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="card-title mb-0">Manage Adresses</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="col-md-12">
+                                                    <div class="form-group ">
+                                                        <label></label>
+                                                        <div class="form-outline ">
+                                                            <div class="form-control position-relative"
+                                                                style="height: 100px; padding: 10px;">
+                                                                <b>
+                                                                    Abutorab 8879494413 </b>
+                                                                <br>
+                                                                564, Dinesh Jewellers, Station Road, Prem Nagar,
+                                                                Jogeshwari East, Mumbai, Maharashtra - 400060
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="accordion" role="tablist">
+                                                    <div class="card">
+                                                        <div class="card-header" role="tab" id="headingOne">
+                                                            <h6 class="mb-0">
+                                                                <a data-toggle="collapse" href="#collapseOne"
+                                                                    aria-expanded="true" aria-controls="collapseOne">
+                                                                    <i class="fas fa-plus"></i> ADD A NEW ADDRESS
+                                                                </a>
+                                                            </h6>
+                                                        </div>
+                                                        <div id="collapseOne" class="collapse show" role="tabpanel"
+                                                            aria-labelledby="headingOne" data-parent="#accordion">
+                                                            <div class="card-body">
+                                                                <div class="form-row">
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputFirstName">Name</label>
+                                                                        <input type="text" class="form-control"
+                                                                            id="inputFirstName" placeholder="">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputFirstName">Mobile
+                                                                            Number</label>
+                                                                        <input type="text" class="form-control"
+                                                                            id="inputFirstName"
+                                                                            placeholder="10-digit Mobile Number">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputLastName">Pincode</label>
+                                                                        <input type="text" class="form-control"
+                                                                            id="inputLastName" placeholder="">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputLastName">Locality</label>
+                                                                        <input type="text" class="form-control"
+                                                                            id="inputLastName" placeholder="">
+                                                                    </div>
+                                                                    <div class="col-md-12">
+                                                                        <div class="form-group">
+                                                                            <label>ADDRESS (area and street)</label>
+                                                                            <textarea class="form-control"
+                                                                                rows="4"> </textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputCity">City
+                                                                            District/Town</label>
+                                                                        <input type="text" class="form-control"
+                                                                            id="inputCity">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputDistrict">State</label>
+                                                                        <select id="inputDistrict" class="form-control">
+                                                                            <option selected="">Choose...</option>
+                                                                            <option>...</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputCity">Landmark(optionl)</label>
+                                                                        <input type="text" class="form-control"
+                                                                            id="inputCity">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                        <label for="inputCity">Landmark(optionl)</label>
+                                                                        <input type="text" class="form-control"
+                                                                            id="inputCity">
+                                                                    </div>
+                                                                    <div>
+                                                                        <button class="btns">Save</button>
+                                                                        <button class="btnc">Cancel</button>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- Content for Accordion Item 1 -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="Managemango" role="tabpanel">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="card-title mb-0">Change Password</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <form>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputFirstName">Name</label>
+                                                            <div class="card-title mb-0">Password</div>
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                            <label for="inputFirstName">User name</label>
+                                                            <div class="card-title mb-0">************</div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="accordion" role="tablist">
+                                                        <div class="card">
+                                                            <div class="card-header" role="tab" id="headingOne">
+                                                                <h6 class="mb-0">
+                                                                    <a data-toggle="collapse" href="#collapseOne"
+                                                                        aria-expanded="true"
+                                                                        aria-controls="collapseOne">
+                                                                        <i class="fas fa-plus"></i> NEW Password
+                                                                    </a>
+                                                                </h6>
+                                                            </div>
+                                                            <div id="collapseOne" class="collapse show" role="tabpanel"
+                                                                aria-labelledby="headingOne" data-parent="#accordion">
+                                                                <div class="card-body">
+                                                                    <div class="form-row">
+                                                                    </div>
+                                                                    <div class="form-row">
+                                                                        <div class="form-group col-md-6">
+                                                                            <label for="inputFirstName">Current
+                                                                                password</label>
+                                                                            <input type="text" class="form-control"
+                                                                                id="inputFirstName" placeholder="">
+                                                                        </div>
+                                                                        <div class="form-group col-md-6">
+                                                                            <label for="inputFirstName">New
+                                                                                password</label>
+                                                                            <input type="text" class="form-control"
+                                                                                id="inputFirstName" placeholder="">
+                                                                        </div>
+                                                                        <div class="form-group col-md-4">
+                                                                            <label for="inputLastName">Reenter new
+                                                                                password:</label>
+                                                                            <input type="text" class="form-control"
+                                                                                id="inputLastName" placeholder="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        <button class="btns btn-primary">Save
+                                                                            change</button>
+                                                                    </div>
+                                                                    <!-- Content for Accordion Item 1 -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="password" role="tabpanel">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="card-title mb-0">Login & Security</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <form>
+                                                    <div class="form-row col-md-">
+                                                        <div class="form-group col-md-4 ">
+                                                            <label for="inputCity">Name:</label>
+                                                            <br> <label for="lname">Abtorab patel</label> <br>
+                                                        </div>
+                                                        <div class="form-group col-md-4 ">
+                                                            <label for="inputCity">Mobile Number:</label>
+                                                            <br> <label for="lname">8879494413</label> <br>
+                                                        </div>
+                                                        <div class="form-group col-md-4 ">
+                                                            <label for="inputCity">2 Step Verification:</label>
+                                                            <br> <input type="submit" value="Submit"> <br>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="inputPasswordCurrent">Current password</label>
+                                                        <input type="password" class="form-control"
+                                                            id="inputPasswordCurrent">
+                                                        <small><a href="#">Forgot your password?</a></small>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputPasswordNew">New password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="inputPasswordNew">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputPasswordNew2">Verify password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="inputPasswordNew2">
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btns btn-primary">Save changes</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="notification" role="tabpanel">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5 class="card-title mb-0">notification</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="body-notification">
+                                                    <div class="line"></div>
+                                                    <div class="post">
+                                                        <div class="circle"></div>
+                                                        <span class="time">12:02:2023/9:45 AM</span>
+                                                        <p><b>Johnny Walker</b> posted a photo on your wall.</p>
+                                                    </div>
+                                                    <div class="post">
+                                                        <div class="circle"></div>
+                                                        <span class="time">12:02:2023/9:45 AM</span>
+                                                        <p><b>Alice Parker</b> commented your last post.</p>
+                                                    </div>
+                                                    <div class="post">
+                                                        <div class="circle"></div>
+                                                        <span class="time">12:02:2023/9:45 AM</span>
+                                                        <p><b>Luke Wayne</b> added you as friend.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- author-profile-area-end -->
-
+        </div>
+        <!--New profile End-->
     </main>
     <!-- main-area-end -->
-
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -462,10 +844,12 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget mb-50">
+                        <div class="footer-widget mb-20">
                             <h4 class="fw-title">SUPPORT</h4>
                             <div class="fw-link">
-                                <ul>
+                                <ul>Your Gender
+                                    Male
+                                    Female
                                     <li><a href="#">CUSTOMER CARE</a></li>
                                     <li><a href="#">SHOWROOM</a></li>
                                     <li><a href="#">BRANCHES</a></li>
@@ -502,8 +886,6 @@
     </footer>
     <!-- footer-area-end -->
     <!-- JS here -->
-
-
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -522,8 +904,6 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/search.js"></script>
-
-
 </body>
 
 </html>

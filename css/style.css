@@ -3720,21 +3720,17 @@ header.side-header {
   border: 2px solid #bcbcbc;
 }
 
-.shop-cart-widget .custom-control-label , ::after {
-  top: 5px;
-}
+
 
 .shop-cart-widget
   .custom-control-input:checked
   ~ .custom-control-label::before {
   color: #fff;
   border-color: #ec2026;
-  background-color: transparent;
   background: #ec2026;
 }
 
 .shop-cart-widget .custom-control:last-child {
-  margin-bottom: 5;
 }
 
 .shop-cart-widget
@@ -3810,11 +3806,12 @@ header.side-header {
 }
 
 .payment-terms .custom-checkbox .custom-control-label::before {
+  padding-left: ;
   top: 5px;
 }
 
 .payment-terms .custom-control-label::after {
-  top: 5px;
+
 }
 
 .paypal-method-flex .custom-control {
@@ -3929,7 +3926,7 @@ header.side-header {
   font-size: 15px;
   display: block;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 700;
   margin-bottom: 20px;
   padding: 0;
   letter-spacing: 1px;
@@ -7912,7 +7909,6 @@ header.side-header {
   border: 1px solid #ebebeb;
   border-radius: 6px;
   text-align: center;
-  margin-right: 30px;
   padding: 40px 35px 0;
   box-shadow: 0px 3px 9px 0px rgba(120, 120, 120, 0.09);
 }
@@ -7992,25 +7988,67 @@ header.side-header {
   border-color: #ec2026
 }
 
-.labels {
-  font-size: 18px;
-  font-weight: 300;
-  display: inline-block;
-  margin-bottom: 0;
-  padding-bottom: 10px;
-  position: relative;
-  text-transform: uppercase;
+
+.user-detail-form .form-grp {
+  margin-bottom: 30px;
 }
 
-.field {
-  font-size: 15px;
-  font-weight: 300;
-  display: inline-block;
-  margin-bottom: 0;
-  padding-bottom: 10px;
-  position: relative;
-  border-bottom: 1px solid #000;
+.user-detail-form .form-grp label {
+  text-align: left;
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #565656;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 1;
+  font-family: "Neue Haas Unica", sans-serif;
 }
+
+.user-detail-form .form-grp input {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  padding: 14px 20px;
+  min-height: 53px;
+}
+
+.user-detail-form .form-grp label span {
+  color: #ee1a25;
+}
+
+.user-detail-form .form-grp label small {
+  font-size: 13px;
+  font-weight: 500;
+  color: #565656;
+}
+
+.user-detail-form .form-grp .custom-select {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  height: 53px;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #696868;
+  background: url(../img/icon/nw_selarw.png) no-repeat scroll 97.5% center;
+}
+
+.user-detail-form .form-grp .custom-select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.user-detail-form .form-grp textarea {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  min-height: 120px;
+}
+
+.user-detail-form .form-grp textarea::placeholder {
+  color: #858585;
+}
+
 
 .author-profile-wrap .name {
   font-size: 20px;
@@ -8060,7 +8098,7 @@ header.side-header {
   font-size: 12px;
   text-transform: capitalize;
   font-weight: 600;
-  border-radius: 50px;
+  border-radius: 1px;
   padding: 12px 41px;
   margin: 0 5px 10px;
 }
@@ -9292,3 +9330,11 @@ header.side-header {
 
 
 
+
+.custom-control-label::before {
+  left: -35px;
+}
+
+.custom-control-label::after {
+  left: -35px;
+}

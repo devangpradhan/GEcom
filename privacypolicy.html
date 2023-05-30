@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>GoldEcom Checkout</title>
+    <title>Goldmeda Ecommerce</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -31,8 +31,6 @@
 </head>
 
 <body>
-
-
     <!-- preloader  -->
     <div id="preloader">
         <div id="ctn-preloader" class="ctn-preloader">
@@ -58,7 +56,6 @@
         </div>
     </div>
     <!-- preloader end -->
-
 
     <!-- Scroll-top -->
     <button class="scroll-top scroll-to-target" data-target="html">
@@ -165,8 +162,9 @@
                                                 <li class="header-search">
                                                     <div class="searchbar">
                                                         <input class="search" id="search" type="search"
-                                                            placeholder="Search here" name="search" onkeyup="buttonUp();" required>
-                                                            <ul class="drop"></ul>
+                                                            placeholder="Search here" name="search"
+                                                            onkeyup="buttonUp();" required>
+                                                        <ul class="drop"></ul>
                                                         <span class="searchbar-icon">
                                                             <i class="flaticon-search-interface-symbol"
                                                                 aria-hidden="true"></i>
@@ -190,7 +188,7 @@
                                                                 <h4><a href="#">Led Lamp</a></h4>
                                                                 <div class="cart-price">
                                                                     <span class="new">₹ 290.00</span>
-                                                                    <span><del>₹ 50.00</del></span>
+                                                                    <span><del>₹ 350.00</del></span>
                                                                 </div>
                                                             </div>
                                                             <div class="del-icon">
@@ -206,7 +204,7 @@
                                                                 <h4><a href="#">Door Bell</a></h4>
                                                                 <div class="cart-price">
                                                                     <span class="new">₹ 290.00</span>
-                                                                    <span><del>₹ 50.00</del></span>
+                                                                    <span><del>₹ 350.00</del></span>
                                                                 </div>
                                                             </div>
                                                             <div class="del-icon">
@@ -291,7 +289,6 @@
 
     </header>
     <!-- header-area-end -->
-
     <!-- main-area -->
     <main>
 
@@ -304,8 +301,7 @@
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="index.html">Pages</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                                    <li class="breadcrumb-item"><a href="Privacy Policy.html">Privacy Policy</a></li>
                                 </ol>
                             </nav>
                         </div>
@@ -315,149 +311,161 @@
         </div>
         <!-- breadcrumb-area-end -->
 
-        <!-- checkout-area -->
-        <div class="checkout-area pt-90 pb-90">
+        <!-- blog-area -->
+        <section class="blog-area pt-100 pb-45">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="checkout-progress-wrap">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="checkout-progress-step">
-                                <ul>
-                                    <li class="active">
-                                        <div class="icon"><i class="fas fa-check"></i></div>
-                                        <span>Shipping</span>
-                                    </li>
-                                    <li>
-                                        <div class="icon">2</div>
-                                        <span>Order Successful</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="checkout-form-wrap">
-                            <form action="#">
-                                <div class="checkout-form-top">
-                                    <h5 class="title">Contact information</h5>
-                                    <p>Already have an account? <a href="contact.html">Log in</a></p>
-                                </div>
-                                <input type="text" placeholder="Email or Mobile Phone Number *">
-                                <div class="news-and-offers custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="nao">
-                                    <label class="custom-control-label" for="nao">Keep me up to date on news and offers</label>
-                                </div>
-                                <div class="building-info-wrap">
-                                    <h5 class="title">Billing Information</h5>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="First Name *">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Last Name *">
-                                        </div>
-                                    </div>
-                                    <input type="text" placeholder="Company Name ( optional )">
-                                    <input type="text" placeholder="Country / Region *">
-                                    <input type="text" placeholder="Street Address *">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Town City">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="State *">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Postal zip">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="State *">
-                                        </div>
-                                    </div>
-                                    <div class="different-address-wrap">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="sda">
-                                            <label class="custom-control-label" for="sda">Ship to a Different Address?</label>
-                                        </div>
-                                        <div class="account-create-info">
-                                            <a href="contact.html">Create an Account <i class="fas fa-user"></i></a>
-                                        </div>
-                                    </div>
-                                    <textarea name="message" id="message" placeholder="Order You Have Notes ( Optional )"></textarea>
-                                </div>
-                            </form>
+                <!-- Introduction -->
+                <div class="row justify-content-md-start">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="section-title text-md-left title-style-three mb-10">
+                            <h6 class="title">Introduction</h6>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="shop-cart-total order-summary-wrap">
-                            <h3 class="title">Order Summary</h3>
-                            <div class="os-products-item">
-                                <div class="thumb">
-                                    <a href="shop-details.html"><img src="img/product/os-products-thumb.jpg" alt=""></a>
-                                </div>
-                                <div class="content">
-                                    <h6 class="title"><a href="shop-details.html">Uncle Bens Vanla</a></h6>
-                                    <span class="price">$3.50</span>
-                                </div>
-                                <div class="remove">x</div>
-                            </div>
-                            <div class="shop-cart-widget">
-                                <form action="#">
-                                    <ul>
-                                        <li class="sub-total"><span>Subtotal</span> $ 136.00</li>
-                                        <li>
-                                            <span>Shipping</span>
-                                            <div class="shop-check-wrap">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                                    <label class="custom-control-label" for="customCheck1">Free Shipping</label>
-                                                </div>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                                    <label class="custom-control-label" for="customCheck2">LOCAL PICKUP: $5.00</label>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="cart-total-amount"><span>Total Price</span> <span class="amount">$ 151.00</span></li>
-                                    </ul>
-                                    <div class="payment-method-info">
-                                        <div class="paypal-method-flex">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck5">
-                                                <label class="custom-control-label" for="customCheck5">Cash on delivery</label>
-                                                <p>Pay with cash upon delivery.</p>
-                                            </div>
-                                        </div>
-                                        <div class="paypal-method-flex">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck6">
-                                                <label class="custom-control-label" for="customCheck6">PayPal</label>
-                                            </div>
-                                            <div class="paypal-logo"><img src="img/images/card.png" alt=""></div>
-                                        </div>
-                                    </div>
-                                    <div class="payment-terms">
-                                        <p>The purpose Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck7">
-                                            <label class="custom-control-label" for="customCheck7">I agree to the website terms and conditions</label>
-                                        </div>
-                                    </div>
-                                    <a href="checkout.html" class="btn">Place order</a>
-                                </form>
-                            </div>
+                    <div class="col-xl-12">
+                        <p>
+                            This Privacy Policy applies to all the personal data of consumers collected through devices,
+                            websites, applications or software services offered by Goldmedal Electricals or their
+                            affiliates that refers to or links to the Privacy Policy (collectively, our “Services”). The
+                            Privacy Policy includes, without limitation, all online and offline collections of all types
+                            of personal data and applies to all employees, vendors, contractors, partners, consumers and
+                            influencers etc. regardless of whether you use a computer, mobile phone, tablet, TV, or
+                            other device to access our Services.
+                        </p>
+                    </div>
+                </div>
+                <!-- Data we may collect -->
+                <div class="row justify-content-md-start">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="section-title text-md-left title-style-three mb-10">
+                            <h6 class="title">Data we may collect</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 pb-10">
+                        <p>
+                            This Privacy Policy applies to all the personal data of consumers collected through devices,
+                            websites, applications or software services offered by Goldmedal Electricals or their
+                            affiliates that refers to or links to the Privacy Policy (collectively, our “Services”). The
+                            Privacy Policy includes, without limitation, all online and offline collections of all types
+                            of personal data and applies to all employees, vendors, contractors, partners, consumers and
+                            influencers etc. regardless of whether you use a computer, mobile phone, tablet, TV, or
+                            other device to access our Services.
+                        </p>
+                        <ul class="pplist">
+                            <li>Your name</li>
+                            <li>Your email address</li>
+                            <li>Your telephone number</li>
+                            <li>Your social media profile</li>
+                            <li>Your gender</li>
+                            <li>Your age</li>
+                            <li>Information about the products you’ve purchased</li>
+                            <li>Your usage of and activities on our pages</li>
+                            <li>Your interests, etc.</li>
+                        </ul>
+                        <p>
+                            In addition, we may collect personal data via cookies or similar techniques, including, but
+                            not limited to:
+                        </p>
+                        <ul class="pplist">
+                            <li>Your IP address;</li>
+                            <li>Your cookie ID;</li>
+                            <li>Your web browser;</li>
+                            <li>Your location;</li>
+                            <li>The web pages you visit on our websites;</li>
+                            <li>The advertisements you’ve viewed or clicked through;</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Why do we collect data and share it -->
+                <div class="row justify-content-md-start">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="section-title text-md-left title-style-three mb-10">
+                            <h6 class="title">Why do we collect data and share it</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <p>
+                            The data is collected so that we may know you better so that we can serve you better while
+                            respecting your choices about how we use your personal data. Any data we collect is used to
+                            perform statistical analysis to understand user behaviour and trends, to be able to improve
+                            our services and decide which features should be implemented next. This, however, doesn’t
+                            involve your personal data.
+                        </p>
+                        <p>
+                            We may share your information with our trusted business partners, service providers or the
+                            law enforcement offices whenever we are required to do so to protect Goldmedal Electricals
+                            and its users.
+                        </p>
+                    </div>
+                </div>
+                <!--Updates to Privacy -->
+                <div class="row justify-content-md-start">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="section-title text-md-left title-style-three mb-10">
+                            <h6 class="title">Updates to Privacy</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <p>
+                            Please note that it is important that you read the Privacy Policy carefully because anytime
+                            you use our Services, you consent to the practices we describe in the Privacy Policy. If you
+                            do not agree to the practices described in the Privacy Policy, you should not use our
+                            Services.
+                        </p>
+                        <p>
+                            It also is important that we reserve the right to change or add to this Privacy Policy from
+                            time to time and will post any material revisions on our websites. You are requested to
+                            check back often for updates to the Privacy Policy. If we update the Privacy Policy, and we
+                            consider it to be material, we shall highlight the same by placing a note on relevant
+                            Services. By accessing or using our Services after we have placed such a notice, you consent
+                            to the new practice(s) identified in the update. The most current version of the Privacy
+                            Policy will always be available here . You can check the “effective date” posted at the top
+                            to see when the Privacy Policy was last updated.
+                        </p>
+                    </div>
+                </div>
+                <!--Your consent is important to us -->
+                <div class="row justify-content-md-start">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="section-title text-md-left title-style-three mb-10">
+                            <h6 class="title">Your consent is important to us</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <p>
+                            We collect and use only the amount of personal data we need for approved and lawful
+                            purposes. We provide reasonable and appropriate safeguards to prevent loss, and unauthorised
+                            use or disclosure, of personal data. By accessing and using our Services, you consent to the
+                            storage of cookies, other local storage technologies, beacons and other information on your
+                            devices. You also consent to the access of such cookies, local storage technologies, beacons
+                            and information by us and by the third parties mentioned above.
+                        </p>
+                        <p>
+                            If you don't agree to the changes, then you can always stop using our services and stop
+                            giving us any more personal information. If you wish to make a complaint about our handling
+                            of your personal information, you may contact us using the details set out in this Privacy
+                            Policy with your full name and contact details and a detailed description of your complaint.
+                            We will use reasonable efforts to respond to you as soon as possible to acknowledge your
+                            complaint and inform you of the next steps we will take in dealing with your complaint.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- blog-area-end -->
+        <section>
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/bg/switch-for-amazing.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- checkout-area-end -->
-
+        </section>
     </main>
     <!-- main-area-end -->
-
-
     <!-- footer-area -->
     <footer class="black-bg footer-style-one footer-style-three pt-10">
         <div class="container-fluid">
@@ -549,8 +557,9 @@
         </div>
     </footer>
     <!-- footer-area-end -->
-
     <!-- JS here -->
+
+
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
